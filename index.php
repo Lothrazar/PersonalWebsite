@@ -8,7 +8,7 @@
 		<h1>Hello World!  My name is Lothrazar, aka Sam Bassett.  My website is under construction </h1>
 		
 		
-		<h2> For now, find me at the following places</h2>
+		<h2><?=  " For now, find me at the following places"?></h2>
 		
 		
 		
