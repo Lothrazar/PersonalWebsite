@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>
+      Lothrazar's Pixel Fortress
+    </title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+  <!--  <link href="//groundfloor.neocities.org/default.css" media="all" rel="stylesheet" type="text/css" />-->
+    <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+    
+    <script src="js/lib/crafty.0.6.2.js"></script> 
+    <script src="js/constants.js"></script>
+    <script src="js/entities/base_entities.js"></script>
+    <script src="js/entities/enemies.js"></script>
+    <script src="js/entities/objects.js"></script>
+    <script src="js/entities/terrain.js"></script>
+    <script src="js/entities/items.js"></script>
+    <script src="js/entities/player.js"></script>
+    <script src="js/hud.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="pixeladventure.js"></script>
+   <script>
+    window.addEventListener('load', Game.start);
+  </script>
+  </head>
+  <body style='background-color:black; color:white'>
+  	
+  	
+    <div style='font-size:8pt'>
+     <p>  This game and all code open source, starting on <a href='http://craftyjs.com/'>CraftyJS</a> v0.5.3, currently v0.6.2.  Created by Samson Bassett</p>
+     <a href="https://www.gnu.org/licenses/quick-guide-gplv3.html">Open Source Licence! </a>  
+     Open Source Textures used are from <a href="http://opengameart.org/">here</a> or <a href="http://letsmakegames.org/tag/spritelib-gpl/">here</a> &nbsp;
+     http://hasgraphics.com/free-sprites/
+     Open Source Audio files used are from <a href="http://www.partnersinrhyme.com/pir/PIRsfx.shtml">here</a> or  <a href="http://www.freesound.org/">here</a>
+     <br>Special thanks to <a href='http://buildnewgames.com/introduction-to-crafty/'>this tutorial</a>
+   </div>
+    
+ <div   >
+   <button onclick='javscript:window.location.reload();'>Click to Refresh and Randomize the Map</button> <br/>
+ <h1>If the game does not load, try Chrome </h1>
+    Move with WASD or arrow keys.  Collect all coins.  Black = Dragon.  Pink = Fairy. Purple = YOU.  
+   <br/>Beware of zombies and fire.
+   <br/>
+   Also, use Number pad to fire in directions different from movement (8 for north, 3 for south-west)
+  
+
+   </div>
+   
+   
+   
+    
+    
+ <div style='float:right;display:none;'>
+  <table>
+    <tr>
+      <td>Health:</td>
+      <td><span id='_display_health'>0</span></td>
+    </tr>
+    
+    <tr>
+      <td>Coins:</td>
+      <td><span id='_display_coins'>0</span></td>
+    </tr>
+    
+    <tr>
+      <td>Ammo:</td>
+      <td><span id='_display_ammo'>0</span></td>
+    </tr>
+    <tr>
+      <td>Kills:</td>
+      <td><span id='_display_kills'>0</span></td>
+    </tr>
+    <tr>
+      <td>Misses:</td>
+      <td><span id='_display_misses'>0</span></td>
+    </tr>
+  </table>
+  
+ </div>
+ 
+   
+  </body>
+</html>
