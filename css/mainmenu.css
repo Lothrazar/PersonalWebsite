@@ -36,3 +36,18 @@ and open the template in the editor.
 #nav li a:hover {
   background-color: #6B238E;
 }
+#icons_ctr{
+     position: relative;
+}
+#icons{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 2px;
+}
+
+#icons img{
+    
+        
+    height:32px;
+}

@@ -32,6 +32,7 @@ head{height:0px;}
     position: absolute;
     top: 0px;
     right: 0px;
+    margin-top: 2px;
 }
 
 #icons img{
