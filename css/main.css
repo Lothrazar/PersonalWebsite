@@ -1,0 +1,35 @@
+/*
+    GPL v3
+    Created on : Apr 2, 2014, 7:30:16 PM
+    Author     : Samson
+*/
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#index_footer{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    height:20px;
+    
+}
+
+#icons_ctr{
+     position: relative;
+}
+#icons{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#icons img{
+    
+        
+    height:32px;
+}
