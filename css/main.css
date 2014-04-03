@@ -4,12 +4,18 @@
     Author     : Samson
 */
 
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
+* { /*fx mystery margin on top of body and other places*/
+   margin: 0px;
+   padding: 0px;
 }
+body {
+   /*  margin-top: -17px;there is some mystery whitespace padding above <body> .
+   removed this since the *{} above fixes this*/
+ 
+   height:100%;  
+}
+
+head{height:0px;}
 
 #index_footer{
     bottom:0;
