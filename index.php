@@ -4,7 +4,27 @@
 		
 	</head>
 	<body>
-		
+	        <?php
+ 
+$handle = fopen("views.txt", "r");
+if(!$handle){
+     
+ echo "could not open the file" ;
+ 
+}
+else {
+     
+     
+    $counter = (int ) fread($handle,20);
+    fclose ($handle);
+    $counter++;
+    echo" <strong> you are visitor no ". $counter . " </strong> " ;
+$handle = fopen("views.txt", "w" );
+fwrite($handle,$counter) ;
+fclose ($handle) ;
+    }
+?>
+ 	
 		<h1>Hello World!  My name is Lothrazar, aka Sam Bassett.  My website is under construction </h1>
 		
 		
