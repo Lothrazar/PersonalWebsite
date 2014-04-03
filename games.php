@@ -14,7 +14,7 @@
 
         GAMES!!
  
-        <a href='games/pa/PixelAdventure.html'>Pixel Adventure</a>
-        <a href='games/pf/PixelFortress.html'>Pixel Adventure</a>
+        <a href='games/pf/PixelFortress.html'>Pixel Fortress</a>
+        <a href='games/pa/PixelAdventure.html'>Pixel Fortress 2</a>
     </body>	
 </html>
