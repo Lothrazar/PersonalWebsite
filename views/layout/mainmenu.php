@@ -6,8 +6,8 @@
    
     <ul id="nav">
        <li><a href='index.php' ><span>Home</span></a></li>
-       <li> <a href='games.php'  > <span>Games</span></a></li> 
-       <li> <a href='blog.php'  > <span>Blog</span></a></li> 
+       <li> <a href='index.php?page=games'  > <span>Games</span></a></li> 
+       <li> <a href='index.php?page=blog'  > <span>Blog</span></a></li> 
     </ul>
 </nav>
 </div>
