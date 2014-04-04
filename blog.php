@@ -5,11 +5,9 @@
     </head>
     <body>
         
-    <?php
-    $doc = new DOMDocument();
-    $doc->loadHTMLFile("mainmenu.html");
-    echo $doc->saveHTML();
-    ?>
+    
+         <?php include 'mainmenu.php'; ?>
 
+        BLOG!
     </body>
 </html>

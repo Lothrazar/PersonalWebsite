@@ -6,55 +6,73 @@
     </head>
     <body>
         
-    <?php
-    $doc = new DOMDocument();
-    $doc->loadHTMLFile("mainmenu.html");
-    echo $doc->saveHTML();
-    ?>
+         <?php include 'mainmenu.php'; ?>
 
 
-        
-        <div id="main">    
 
-            <?php
+<nav  id='left_menu'>
+   
+    <ul  >
+       <li><a href='#1' ><span>1</span></a></li>
+       <li><a href='#2' ><span>2</span></a></li> 
+       <li><a href='#3' ><span>3</span></a></li> 
+    </ul>
+</nav>
+    <section id="main">    
 
-        $intro = fopen("txt/intro.txt", "r");
-        if($intro)
-        {
-            echo fread($intro,7777);
-            fclose ($intro);  
-        }
-        ?>
-            
-            
         
         
-        </div>
+      home 
+      
+      
+      
+      
+      
+      testing large content
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      so that i can test my non-scrolling menus
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      like this
+    </section>
         
+         
         
-        
-        
-        
-        
-        
+
+ 
+
+<div class="floating-menu">
+ 
+    <a href="http://www.quackit.com/css/">CSS</a>
+    <a href="http://www.quackit.com/html/">HTML</a>
+    <a href="http://www.quackit.com/javascript/">JavaScript</a>
+    <a href="http://www.quackit.com/coldfusion/">ColdFusion</a>
+    <a href="http://www.quackit.com/myspace/codes/">MySpace Codes</a>
+</div>
+
 
     <div id="index_footer">
 
 
-    <?php
-
-    $views = fopen("views.txt", "r");
-    if($views)
-    {
-        $counter = (int) fread($views,20);
-        fclose ($views);
-        $counter++;
-        echo" <center> View Counter: ". $counter . " </center> " ;
-        $handle = fopen("views.txt", "w" );
-        fwrite($views,$counter) ;
-        fclose ($views) ;
-    }
-    ?>
+   
+         <?php include 'viewcounter.php'; ?>
 
 
     </div>

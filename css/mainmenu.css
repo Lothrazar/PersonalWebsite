@@ -19,14 +19,19 @@ and open the template in the editor.
   background-color: #2E0854;
   font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;
   float: left;
+  
+  
+  
 }
 #nav li {
   list-style: none;
-  float: left;
+   float:left;
   width: 120px;
   height: 35px;
   line-height: 35px;
   text-align: center;
+  
+ 
 }
 #nav li a {
   color: white;
@@ -38,13 +43,16 @@ and open the template in the editor.
 }
 #icons_ctr{
      position: relative;
+     right:0;
 }
 #icons{
-    position: absolute;
+   position: absolute;
     top: 0px;
-    right: 0px;
+    right: 0px; 
     margin-top: 2px;
 }
+
+
 
 #icons img{
     
