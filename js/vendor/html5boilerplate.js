@@ -1,4 +1,5 @@
 // Avoid `console` errors in browsers that lack a console.
+// 
 // from http://html5boilerplate.com/
 (function() {
     var method;

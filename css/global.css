@@ -12,26 +12,28 @@ these are the styles that apply everywhere
    margin: 0px;
    padding: 0px;
 } 
-body {
-   /*  margin-top: -17px;there is some mystery whitespace padding above <body> .
-   removed this since the *{} above fixes this*/
  
-   height:100%;  
-}
-
 body,
 html { 
     color:#000;
     background:#FFFFE5
+        
     }
+    
+  #body{height:100%;min-height:100%}  
 
 head{height:0px;}
 
-.footer{
+#footer{
+    clear: both;
     bottom:0;
-    position:absolute;
+    position: relative;
     width:100%;
     height:20px;
     
 }
+#body{  padding-bottom:60px;   /* Height of the footer */}
 
+#container {
+   height:100%;
+}

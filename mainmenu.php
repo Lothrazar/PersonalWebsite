@@ -1,5 +1,6 @@
 
-<link rel="stylesheet" type="text/css" href="css/mainmenu.css">    
+<link rel="stylesheet" type="text/css" href="css/mainmenu.css">  
+
 <div>
 <nav id='menu'>
    
@@ -18,4 +19,4 @@
         <a href='https://ca.linkedin.com/pub/samson-bassett/25/653/49' target="_blank"><img src="img/icons/linkedin.png"  /></a>
 
     </nav>
-</div>
+</div> 

@@ -8,43 +8,48 @@
           
     </head>
     <body>
+    <div id="container">   
+            
+        <div id="header"> 
+             <?php include 'mainmenu.php'; ?>
+        </div>
+        <div id="body">
+  
         
-         <?php include 'mainmenu.php'; ?>
+            <section id="main">    
+
+              home 
+
+              testing large content
 
 
+              so that i can test my non-scrolling menus
 
-        
-    <section id="main">    
- 
-      home 
-       
-      testing large content
-       
-      
-      so that i can test my non-scrolling menus
-      
-       
-      like this
-    </section>
+
+              like this
+            </section>
         
           
-<div class="floating-menu">
-    <ul  >
-           <li><a href='#1' ><span>1</span></a></li>
-           <li><a href='#2' ><span>2</span></a></li> 
-           <li><a href='#3' ><span>3</span></a></li> 
-        </ul>
-</div>
+            <div class="floating-menu">
+                <ul  >
+                       <li><a href='#1' ><span>1</span></a></li>
+                       <li><a href='#2' ><span>2</span></a></li> 
+                       <li><a href='#3' ><span>3</span></a></li> 
+                    </ul>
+            </div>
+
+        </div>
+        <div id="footer">
 
 
-    <div class="footer">
+
+             <?php include 'viewcounter.php'; ?>
 
 
-   
-         <?php include 'viewcounter.php'; ?>
+        </div>
 
+            
 
     </div>
-
     </body>	
 </html>
