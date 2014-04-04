@@ -2,12 +2,16 @@
     GPL v3
     Created on : Apr 2, 2014, 7:30:16 PM
     Author     : Samson
+
+these are the styles that apply everywhere
 */
 
-* { /*fx mystery margin on top of body and other places*/
+/*fx mystery margin on top of body and other places*/
+ 
+* { 
    margin: 0px;
    padding: 0px;
-}
+} 
 body {
    /*  margin-top: -17px;there is some mystery whitespace padding above <body> .
    removed this since the *{} above fixes this*/
@@ -23,7 +27,7 @@ html {
 
 head{height:0px;}
 
-#index_footer{
+.footer{
     bottom:0;
     position:absolute;
     width:100%;
