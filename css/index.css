@@ -8,14 +8,12 @@ and open the template in the editor.
     Author     : Samson
 */
 
-#main {
-float:left;
-width:500px;
-/*background:#FFCC00;http://www.colorcombos.com/color-schemes/8/ColorCombo8.html*/
-height:900px;
+ 
+
+ #main {
+
+    width:500px;
 }
-
-
 #left_menu{
  margin-top:50px;
  
@@ -48,7 +46,7 @@ height:900px;
      border:1px solid #ffcc00;
      width:150px;
      z-index:100;
-     margin-top:150px;
+     margin-top:130px;
  }
  
  div.floating-menu a

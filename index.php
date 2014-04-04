@@ -8,28 +8,11 @@
           
     </head>
     <body>
-    <div id="container">   
-            
+       
         <div id="header"> 
              <?php include 'mainmenu.php'; ?>
         </div>
         <div id="body">
-  
-        
-            <section id="main">    
-
-              home 
-
-              testing large content
-
-
-              so that i can test my non-scrolling menus
-
-
-              like this
-            </section>
-        
-          
             <div class="floating-menu">
                 <ul  >
                        <li><a href='#1' ><span>1</span></a></li>
@@ -37,19 +20,64 @@
                        <li><a href='#3' ><span>3</span></a></li> 
                     </ul>
             </div>
-
-        </div>
-        <div id="footer">
-
-
-
-             <?php include 'viewcounter.php'; ?>
-
-
-        </div>
-
             
+            <table id="layout"><tr><td>
+              
+            <section id="main">    
 
-    </div>
+              home  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like this
+              home  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like thishome  
+              testing large content
+ 
+              so that i can test my non-scrolling menus 
+              like this
+            </section>
+        
+                    </td><td>
+                        
+                        right column
+                        
+                        
+                    </td></tr></table>
+                        
+          
+           
+
+        </div> 
+        <div id="footer"> 
+             <?php include 'viewcounter.php'; ?> 
+        </div> 
     </body>	
 </html>
