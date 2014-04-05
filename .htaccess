@@ -1,0 +1,10 @@
+order deny,allow
+deny from all
+<Files index.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+<FilesMatch ".*\.(css|js|png|txt)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
