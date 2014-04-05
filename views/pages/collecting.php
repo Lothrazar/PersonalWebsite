@@ -1,1 +1,1 @@
-minecraft stuff
+I collect vintage games such as NES, SNES.
