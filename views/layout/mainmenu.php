@@ -1,26 +1,17 @@
-
 <link rel="stylesheet" type="text/css" href="css/mainmenu.css">  
-<?php
- 
-//and all other non selected tabs do not get the styling
-$current = array();
-   $current['home'] = '';
-   $current['games'] = '';
-   $current['playing'] = '';
-   $current['collecting'] = '';
-   
-   
-   $current[$page] = 'current';//apply css to the current tab
 
-   ?>
 <div>
 <nav id='menu'>
     <ul id="nav">
-       <li><a class="<?=$current['home'] ?>" href='index.php' ><span>Home</span></a></li>
-       <li><a class="<?=$current['games'] ?>" href='index.php?page=games'  > <span>Creating</span></a></li> 
-       <li><a class="<?=$current['minecraft'] ?>" href='index.php?page=minecraft'  > <span>Modding</span></a></li> 
-       <li><a class="<?=$current['playing'] ?>" href='index.php?page=playing'  > <span>Playing</span></a></li> 
-       <li><a class="<?=$current['collecting'] ?>" href='index.php?page=collecting'  > <span>Collecting</span></a></li> 
+        
+        <?php foreach($titles as $pageid => $title):   //array defined in index.php
+            $iscurrent = ($pageid == $page) ? 'current' : ''; //apply css to the current tab
+        ?>
+         
+            <li><a class="<?=$iscurrent ?>" href='index.php?page=<?=$pageid?>' ><span><?=$title?></span></a></li>
+         
+       <?php endforeach; ?>
+        
     </ul>
 </nav>
 </div>

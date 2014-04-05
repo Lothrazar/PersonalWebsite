@@ -11,6 +11,15 @@
         <?php
         $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
         if(!isset($page)){ $page='home';}
+         
+        //define menu items, keyed by the page id which identified the php file inside /views/pages/
+          $titles = array();
+          $titles['home'] = 'About';
+          $titles['creating'] = 'Creating';
+          $titles['minecraft'] = 'Modding';
+          $titles['playing'] = 'Playing';
+          $titles['collecting'] = 'Collecting';
+ 
          ?>
 
         <div id="header"> 
@@ -30,8 +39,8 @@
  
                
                  <?php
-                $whitelist = array("games", "home");
-                if(in_array($page, $whitelist)) 
+             
+                if(isset($titles[$page])) 
                 {
                   include('views/pages/'.$page.".php");
                 }
