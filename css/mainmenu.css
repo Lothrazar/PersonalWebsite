@@ -38,6 +38,10 @@ and open the template in the editor.
   text-decoration: none;
   display: block;
 }
+#nav .current {
+  background-color: #5A238E;
+}
+
 #nav li a:hover {
   background-color: #6B238E;
 }

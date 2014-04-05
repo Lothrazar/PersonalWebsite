@@ -8,7 +8,11 @@
           
     </head>
     <body>
-       
+        <?php
+        $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
+        if(!isset($page)){ $page='home';}
+         ?>
+
         <div id="header"> 
              <?php include 'views/layout/mainmenu.php'; ?>
         </div>
@@ -24,26 +28,20 @@
             <table id="layout"><tr><td>
                 <section id="main">    
  
-                <?php
-                $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
-                if(!isset($page)){ $page='home';}
-                
-                
+               
+                 <?php
                 $whitelist = array("games", "home");
                 if(in_array($page, $whitelist)) 
                 {
                   include('views/pages/'.$page.".php");
                 }
                 else
-                {
-                    
-                    include("404.php");
-
-
+                { 
+                    include("404.php"); 
                 }
 
-              ?>      
-            </section>
+                ?>      
+                </section>
 
           
 
