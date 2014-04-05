@@ -20,21 +20,11 @@
          ?>
 
         <div id="header"> 
-             <?php include 'views/layout/mainmenu.php'; ?>
+             <?php include 'views/layout/menu.php'; ?>
         </div>
         <div id="body">
-            <!-- 
-            <div class="floating-menu">
-                <ul  >
-                       <li><a href='#1' ><span>1</span></a></li>
-                       <li><a href='#2' ><span>2</span></a></li> 
-                       <li><a href='#3' ><span>3</span></a></li> 
-                    </ul>
-            </div>
-            -->
+      
             <table id="layout"><tr><td id="main">
-              
- 
                
                  <?php
              
@@ -48,21 +38,18 @@
                 }
 
                 ?>      
-       
-
-          
-
+        
             </td><td id="right">
-          
-                 <?php
-               // right column IS ALL HERE and we would maybe align to top or float right or anything we need
- ?>  
-                &nbsp;
- 
+           
+                
+                
+                
+                
             </td></tr></table>
 
 
            
+             <?php include 'views/layout/icons.php'; ?>
 
         </div> 
         <div id="footer"> 

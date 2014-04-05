@@ -54,9 +54,39 @@ head{
    /* background:#FFFFEF;*/
     width:100%; 
 }
-
-
  
+
+
+
+
+
+
+#icons_ctr{
+     position: relative;
+     right:0;
+}
+#icons{
+   position: absolute;
+    top: 0px;
+    right: 0px; 
+    margin-top: 2px;
+    width:32px;
+}
+
+
+
+#icons img{
+    
+        
+    height:32px;
+}
+
+
+
+
+
+
+
 
 #left_menu{
  margin-top:50px;
