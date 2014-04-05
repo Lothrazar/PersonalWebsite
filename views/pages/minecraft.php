@@ -1,6 +1,12 @@
 <p>
     
-    
+       <div class="floating-menu">
+                <ul  >
+                       <li><a href='#1' ><span>1</span></a></li>
+                       <li><a href='#2' ><span>2</span></a></li> 
+                       <li><a href='#3' ><span>3</span></a></li> 
+                    </ul>
+            </div>
     
     I have a bunch of great little minecraft mods located in dropbox
     

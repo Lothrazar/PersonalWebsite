@@ -2,9 +2,7 @@
 <html>
     <head> 
         <?php include 'views/layout/head.php'; ?>
-         
-        <link rel="stylesheet" type="text/css" href="css/index.css"> 
-          
+           
     </head>
     <body>
         <?php
