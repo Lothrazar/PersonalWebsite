@@ -45,3 +45,16 @@ head{height:0px;}
     margin-left:160px;/*same width as left menu plus a bit*/
     
 }
+
+ #main {
+
+    min-width:700px;
+}
+
+
+ #right {
+
+    background:#FFFFE9;
+        width:100%;
+    
+}

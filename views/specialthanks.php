@@ -12,7 +12,13 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
-        $thanks = array('http://html5boilerplate.com/');
+        $thanks = array('http://html5boilerplate.com/'
+            ,'http://www.iconarchive.com/'
+            ,'http://blog.themeforest.net/'
+            ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
+               ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
+            
+);
         ?>
     </body>
 </html>

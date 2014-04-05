@@ -1,9 +1,8 @@
 <!DO<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head> 
-         <?php include 'views/layout/head.php'; ?>
-        
-        
+        <?php include 'views/layout/head.php'; ?>
+         
         <link rel="stylesheet" type="text/css" href="css/index.css"> 
           
     </head>
@@ -35,8 +34,8 @@
                     </ul>
             </div>
             -->
-            <table id="layout"><tr><td>
-                <section id="main">    
+            <table id="layout"><tr><td id="main">
+              
  
                
                  <?php
@@ -51,16 +50,17 @@
                 }
 
                 ?>      
-                </section>
+       
 
           
 
-            </td><td>
-
-                
-                right column IS ALL HERE and we would maybe align to top or float right or anything we need
-
-
+            </td><td id="right">
+          
+                 <?php
+               // right column IS ALL HERE and we would maybe align to top or float right or anything we need
+ ?>  
+                &nbsp;
+ 
             </td></tr></table>
 
 
