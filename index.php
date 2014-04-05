@@ -26,6 +26,7 @@
              <?php include 'views/layout/mainmenu.php'; ?>
         </div>
         <div id="body">
+            <!-- 
             <div class="floating-menu">
                 <ul  >
                        <li><a href='#1' ><span>1</span></a></li>
@@ -33,7 +34,7 @@
                        <li><a href='#3' ><span>3</span></a></li> 
                     </ul>
             </div>
-            
+            -->
             <table id="layout"><tr><td>
                 <section id="main">    
  
