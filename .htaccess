@@ -1,3 +1,10 @@
 IndexIgnore * 
 DirectoryIndex index.php
- 
+ <Files "views.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "log.txt">
+Order Allow,Deny
+Deny from all
+</Files>
