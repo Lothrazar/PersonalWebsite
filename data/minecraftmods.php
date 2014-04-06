@@ -16,7 +16,7 @@ class MinecraftMod {
     public $text = '';
     public $version = '';
     public $mcversion = '';
-
+    public $images = array();
 }
 //CMD SHIFT R
   function get_minecraftmods()
@@ -66,13 +66,11 @@ All crafted with a similar recipe, and need silk touch to pick up.
 -   naturalRegeneration
 ';
 
-/*
 
-Rule Detectors
-
-[spoiler]
-
-Each of these 5 blocks emits a redstone signal depending on if their associated game rule is on or off (on emits power, off does not).  Useful for having a light panel that shows rule status.
+$rd = new MinecraftMod();
+$rd->title = 'Rule Detectors';
+$rd->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/ruledetectors-1.7.2-1.0.jar';
+$rd->text = 'Each of these 5 blocks emits a redstone signal depending on if their associated game rule is on or off (on emits power, off does not).  Useful for having a light panel that shows rule status.
 
 -   doFireTick
 
@@ -85,14 +83,12 @@ Each of these 5 blocks emits a redstone signal depending on if their associated 
 -   naturalRegeneration
 
 Unfortunately, when a game rule is toggled, the power does not change right away, you have to update the block (sometimes breaking it) for it to change state
+';
 
-https://dl.dropboxusercontent.com/u/40119435/mods/ruledetectors-1.7.2-1.0.jar
-[/spoiler]
-
-Magic Apples
-
-[spoiler]
-
+$ma = new MinecraftMod();
+$ma->title = 'Magic Apples';
+$ma->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/magicapples-1.7.2-1.0.jar';
+$ma->text = '
 These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.
 
 Diamond
@@ -131,42 +127,44 @@ Chocolate
 
 Speed II (0:30)
 
-Weakness II (0:30)
+Weakness II (0:30)';
 
-https://dl.dropboxusercontent.com/u/40119435/mods/magicapples-1.7.2-1.0.jar
-[/spoiler]
 
-Expensive Flying - customizable rules for limited flying in survival with debuffs
+$ef = new MinecraftMod();
+$ef->title = 'Expensive Flying';
+$ef->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/expensiveflying-1.7.2-1.0.jar';
+$ef->text = '
+    
+ - customizable rules for limited flying in survival with debuffs
+ ...
+ 
+    ';
 
-[spoiler]
-
-https://dl.dropboxusercontent.com/u/40119435/mods/expensiveflying-1.7.2-1.0.jar
-[/spoiler]
-
+$hs = new MinecraftMod();
+$hs->title = 'Horse Step while Sprinting';
+$hs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/horsestep-1.7.2-1.0.jar';
+$hs->text = '
+    
 Horse Step while Sprinting - walk up full blocks like a horse
-
-[spoiler]
-
 Whenever a player is sprinting, they can walk up full blocks.  They treat blocks as if they were halfslabs, just like horses do.
-
-https://dl.dropboxusercontent.com/u/40119435/mods/horsestep-1.7.2-1.0.jar
-[/spoiler]
-
-Lock game mode for all players
-
-[spoiler]
+ ...
+ 
+    ';
+ 
+$lg = new MinecraftMod();
+$lg->title = 'Lock Gamemode';
+$lg->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/lockgamemode-1.7.2-1.0.jar';
+$lg->text = '
 
 Pick a game mode (by default the config file picks survival).  Every player is now locked in that mode.  If their gamemode changes for any reason, this mod will change it back right away.
 
 Most people will find this mod silly, but I made it for myself so i would not be tempted in single player just to open up LAN mode, enable cheats, and cheese away.
+    ';
 
-https://dl.dropboxusercontent.com/u/40119435/mods/lockgamemode-1.7.2-1.0.jar
-[/spoiler]
-
-Runestones - get persistant buffs
-
-[spoiler]
-
+$rs = new MinecraftMod();
+$rs->title = 'Runestones';
+$rs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/runestones-1.7.2-1.0.jar';
+$rs->text = '
 Whenever a runestone is in the top left corner of your inventory, you gain its effects.  As soon as you drop or move the item, the effect is gone.
 
 Resistance Rune
@@ -175,14 +173,12 @@ Gives you permament Resistance II, just like from a beacon.
 
 GoldHeart Rune
 
-Uses the existing hidden 'Health Boost' effect to give you 20 hearts instead of 10 - one full extra row.
+Uses the existing hidden Health Boost effect to give you 20 hearts instead of 10 - one full extra row. ';
 
-https://dl.dropboxusercontent.com/u/40119435/mods/runestones-1.7.2-1.0.jar
-[/spoiler]
-
-Extra Crafting - tons of new recipes including the uncraftable blocks
-
-[spoiler]
+$cr = new MinecraftMod();
+$cr->title = 'Extra Crafting';
+$cr->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/extracrafting-1.7.2-1.0.jar';
+$cr->text = '
 
 Almost all the uncraftable items are given a recipe (excluding end portal frames and command blocks, etc).
 
@@ -194,50 +190,16 @@ Also some little recipes like crafting lily pads, and changing saplings to stick
 
 Includes the chiseled stone and mossy cobble recipes pulled from the 1.8 snapshots.
 
-Imare gallery with all recipes coming soonish.
+Imare gallery with all recipes coming soonish.';
 
-https://dl.dropboxusercontent.com/u/40119435/mods/extracrafting-1.7.2-1.0.jar
-[/spoiler]
-
-Uncrafting - recycle almost every item back to its ingredients
-
-[spoiler]
-
+$uc = new MinecraftMod();
+$uc->title = 'Uncrafting';
+$uc->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/uncrafting-1.7.2-1.0.jar';
+$uc->text = '
+    
 Almost everything in the game has some sort of reverse recipe.  Ladders back into sticks, Stone bricks back into Stone, you name it.
 
 Imare gallery with all recipes coming soonish.
-
-https://dl.dropboxusercontent.com/u/40119435/mods/uncrafting-1.7.2-1.0.jar
-[/spoiler]
-
-Other info
-
-[spoiler]
-
-[b]Permissions[/b]
-[spoiler]
-This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of [url="http://www.minecraft.net/copyright.jsp"]http://www.minecraft.net/copyright.jsp[/url] is sole property of the Mod author (Sam Bassett aka Lothrazar, henceforth "Owner" or "The Owner"). By default it may only be distributed on minecraftforums.net. It may only be mirrored or reposted with advance written permission of the Owner. Electronic Mail is fine if you wait for a response. URL shorteners or other attempts to make money off The Owner's Mod are strictly forbidden without advance written permission.
-
-However, you are free to include this mod as-is in a ModPack as long as you credit the Owner.
-[/spoiler]
-
-
-[url="https://github.com/PrinceOfAmber/BuildersDream_Minecraft"]Source code GitHub  - GPLv3 [/url]
-
-
-[b]Contact Me Directly[/b] 
-
-[url="http://twitter.com/lothrazar"]http://twitter.com/lothrazar[/url]
-
-[b]average and boring youtube videos[/b]
-[url="http://youtube.ca/lothrazar"]http://youtube.ca/lothrazar[/url]
-
-
-[/spoiler]
-
-Please post about any bugs, ideas, or suggestions.
-
-Screenshots coming soon.
-*/
- return array($ec,$sm,$rccm);
+';
+ return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr);
   }

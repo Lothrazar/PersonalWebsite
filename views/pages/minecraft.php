@@ -45,13 +45,17 @@ foreach ($mods as $mod):
     <div  class="mod_ctr" >
         <div class="mod_logo" style="float:left; background-color:#CF6; width:15%; min-height:120px; border-top-left-radius:5px; border-bottom-left-radius:5px; margin-bottom:2%;"> 
 
-            <div class="mod_name"> <?=$mod->title; ?></div>  
-            <div class="mod_name"> <?=$mod->version; ?></div>        
-
+            <p class="mod_name"> <?=$mod->title; ?></p>  
+            <p class="mod_name"> <?=$mod->version; ?></p>        
+            <p>
+                <a href="<?=$mod->download?>">Download</a>
+            </p>
         </div>
 
         <div class="mod_content" style="float:left; background-color:#CCD9F7; width:60%; min-height:120px; height:120px; overflow:hidden; border-top-right-radius:5px; border-bottom-right-radius:5px; margin-bottom:2%;"> 
             <?=$mod->text; ?>
+            
+            
         </div>
  
     </div>
@@ -62,4 +66,20 @@ foreach ($mods as $mod):
 
 
  
+
+ 
+
+
+<h3>Permissions</h3>
+
+<p>
+This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of 
+http://www.minecraft.net/copyright.jsp"]http://www.minecraft.net/copyright.jsp is sole property of the Mod author 
+(Sam Bassett aka Lothrazar, henceforth "Owner" or "The Owner"). By default it may only be distributed on minecraftforums.net.  
+It may only be mirrored or reposted with advance written permission of the Owner. Electronic Mail is fine if you wait for a response.  
+URL shorteners or other attempts to make money off The Owner's Mod are strictly forbidden without advance written permission.
+
+However, you are free to include this mod as-is in a ModPack as long as you credit the Owner.
+</p>
+
  
