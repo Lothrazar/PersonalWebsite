@@ -9,7 +9,8 @@ and open the template in the editor.
 */
 
 #icons_ctr{
-     position: relative;
+     position: fixed;
+     top:40px;
      right:0;
 }
 #icons{
