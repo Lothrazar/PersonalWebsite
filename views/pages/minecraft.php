@@ -1,28 +1,99 @@
-<p>
-    
-       <div class="floating-menu">
-                <ul  >
-                       <li><a href='#1' ><span>1</span></a></li>
-                       <li><a href='#2' ><span>2</span></a></li> 
-                       <li><a href='#3' ><span>3</span></a></li> 
-                    </ul>
-            </div>
-    
-    I have a bunch of great little minecraft mods located in dropbox
-    
-    
-    temp content from my non released minecraftforum post
-    
-    
-    Ender Chest Command
 
-[spoiler]
+<div class="floating-menu">
+    <ul  >
+        <li><a href='#1' ><span>1</span></a></li>
+        <li><a href='#2' ><span>2</span></a></li> 
+        <li><a href='#3' ><span>3</span></a></li> 
+    </ul>
+</div>
 
-Adds a new command.  Type '/enderchest' to open your ender chest inventory anywhere anytime.  You do not have to be near one, you do not even have to build one.
 
-https://dl.dropboxusercontent.com/u/40119435/mods/enderchestcommand-1.7.2-1.0.jar
+<h2>
 
-[/spoiler]
+    I have a bunch of great little minecraft mods located in dropbox</h2>
+
+
+<script>
+    $(document).ready(function()
+    {
+
+        $('.mod_content').click(function()
+        {
+            if ($(this).height() > 150)
+            {
+                $(this).animate({height: '120px'});
+            }
+            else
+            {
+                $(this).animate({height: '300px'});
+            }
+        });
+    });
+
+</script>
+
+<div class="clear"></div>
+
+
+<?php
+
+class MinecraftMod {
+
+    public $title = '';
+    public $download = '';
+    public $text = '';
+    public $version = '';
+    public $mcversion = '';
+
+}
+//CMD SHIFT R
+$mods = array();
+
+$ec = new MinecraftMod();
+$ec->title = ' Ender Chest Command';
+$ec->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/enderchestcommand-1.7.2-1.0.jar';
+$ec->text = 'Adds a new command.  Type /enderchest to open your ender chest inventory anywhere anytime.  You do not have to be near one, you do not even have to build one.';
+$ec->version = '1.7.2-1.0';
+
+$mods = array($ec);
+?>
+
+
+
+
+<?php
+foreach ($mods as $mod):
+    ?>
+
+
+    <div  class="mod_ctr" >
+        <div class="mod_logo" style="float:left; background-color:#CF6; width:15%; min-height:120px; border-top-left-radius:5px; border-bottom-left-radius:5px; margin-bottom:2%;"> 
+
+            <div class="mod_name"> <?=$mod->title; ?></div>  
+            <div class="mod_name"> <?=$mod->version; ?></div>        
+
+        </div>
+
+        <div class="mod_content" style="float:left; background-color:#CCD9F7; width:60%; min-height:120px; height:120px; overflow:hidden; border-top-right-radius:5px; border-bottom-right-radius:5px; margin-bottom:2%;"> 
+            <?=$mod->text; ?>
+        </div>
+
+
+    </div>
+
+<div class="clear"></div>
+
+<?php endforeach; ?>
+
+
+
+
+
+
+
+
+
+
 
 Stack Max 64
 
@@ -217,9 +288,9 @@ This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), b
 However, you are free to include this mod as-is in a ModPack as long as you credit the Owner.
 [/spoiler]
 
- 
+
 [url="https://github.com/PrinceOfAmber/BuildersDream_Minecraft"]Source code GitHub  - GPLv3 [/url]
- 
+
 
 [b]Contact Me Directly[/b] 
 
@@ -234,8 +305,8 @@ However, you are free to include this mod as-is in a ModPack as long as you cred
 Please post about any bugs, ideas, or suggestions.
 
 Screenshots coming soon.
-    
-    
-    
-    
+
+
+
+
 </p>
