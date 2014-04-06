@@ -54,6 +54,8 @@
         </div> 
         <div id="footer"> 
              <?php include 'views/layout/viewcounter.php'; ?> 
+            
+             <center> View Counter: <?=get_viewcount_incremented()?> </center> 
         </div> 
     </body>	
 </html>
