@@ -28,11 +28,7 @@ class Database
     function get_articles()
     {
         $sql = "SELECT * from public.article ORDER BY published_on";
-
-      //mysql_real_escape_string($firstname),
-       // mysql_real_escape_string($lastname));
  
-        
         return $this->query_array($sql);
     }
     
@@ -44,8 +40,7 @@ class Database
          
         $sql->execute(); 
     }
-    
-    
+     
     //execute this query against the database, creat-ng and closing the connection on its own
     //converts result from a mysql object to a flat array of records
     function query_array($query)

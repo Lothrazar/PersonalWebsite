@@ -45,25 +45,29 @@ $rccm->title = 'Restricted Craftable Command Blocks';
 $rccm->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/craftablecommand-1.7.2-1.0.jar';
 $sm->version = '1.7.2-1.0';
 $rccm->text = '
-These 7 command blocks do not let anyone open the command window to edit the command.  The command of each one is completely locked and will never be changed.
-
+These 7 command blocks do not let anyone open the command window to edit the command.  
+<br/>
+The command of each one is completely locked and will never be changed.
+<br/>
 All crafted with a similar recipe, and need silk touch to pick up.
+<ul>
+<li> /toggledownfall </li>
 
-- /toggledownfall
+<li> /tp : all players to world spawn </li>
 
-- /tp : all players to world spawn
+<li> gamerules : it alternates them on and off </li>
+    <ul>
+    <li>  doFireTick </li>
 
-- gamerules : it alternates them on and off 
+    <li>   doDaylightCycle</li>
 
--   doFireTick
+    <li>  keepInventory</li>
 
--   doDaylightCycle
+    <li>  mobGriefing</li>
 
--   keepInventory
-
--   mobGriefing
-
--   naturalRegeneration
+    <li>  naturalRegeneration</li>
+    </ul>
+</ul>
 ';
 
 
