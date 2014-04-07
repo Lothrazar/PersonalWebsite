@@ -18,6 +18,7 @@ and open the template in the editor.
             ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
             ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
             ,'https://stackoverflow.com/questions/8687112/expanding-and-collapsing-div-via-jquery-css'
+            ,'https://stackoverflow.com/questions/12224431/create-a-root-password-for-phpmyadmin'
 );
         ?>
     </body>

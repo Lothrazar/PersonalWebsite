@@ -50,6 +50,13 @@
 
            
              <?php include 'views/layout/icons.php'; ?>
+            
+            
+            
+            
+             <?php include 'data/db.php';//testing database here
+             //db_connect();//k it works
+             ?>
 
         </div> 
         <div id="footer"> 
