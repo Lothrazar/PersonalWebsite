@@ -56,6 +56,9 @@
             
              <?php include 'data/db.php';//testing database here
              //db_connect();//k it works
+             $db = new Database();
+             $a = $db->get_articles();
+             var_dump($a);
              ?>
 
         </div> 
