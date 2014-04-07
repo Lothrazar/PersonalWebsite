@@ -4,7 +4,16 @@
 <nav id='menu'>
     <ul id="nav">
         
-        <?php foreach($titles as $pageid => $title):   //array defined in index.php
+        <?php 
+          //define menu items, keyed by the page id which identified the php file inside /views/pages/
+          $titles = array();
+          $titles['home'] = 'Blog';
+          $titles['creating'] = 'Creating';
+          $titles['minecraft'] = 'Modding';
+          $titles['playing'] = 'Playing';
+          $titles['collecting'] = 'Collecting';
+        
+        foreach($titles as $pageid => $title):   //array defined in index.php
             $iscurrent = ($pageid == $page) ? 'current' : ''; //apply css to the current tab
         ?>
          

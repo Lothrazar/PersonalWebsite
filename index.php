@@ -1,23 +1,12 @@
-<!DO<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head> 
-        <?php include 'views/layout/head.php'; ?>
-           
+        <?php include 'views/layout/head.php'; ?> 
     </head>
     <body>
         <?php
         $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
-        if(!isset($page)){ $page='home';}
-         
-        //define menu items, keyed by the page id which identified the php file inside /views/pages/
-          $titles = array();
-          $titles['home'] = 'About';
-          $titles['creating'] = 'Creating';
-          $titles['minecraft'] = 'Modding';
-          $titles['playing'] = 'Playing';
-          $titles['collecting'] = 'Collecting';
- 
-         ?>
+        if( !isset($page) ){ $page='home';}  ?>
 
         <div id="header"> 
              <?php include 'views/layout/menu.php'; ?>
@@ -41,25 +30,10 @@
         
             </td><td id="right">
            
-                
-                
-                
-                
             </td></tr></table>
 
-
-           
-             <?php include 'views/layout/icons.php'; ?>
-            
-            
-            
-            
-             <?php include 'data/db.php';//testing database here
-             //db_connect();//k it works
-             $db = new Database();
-             $a = $db->get_articles();
-             var_dump($a);
-             ?>
+            <?php include 'views/layout/icons.php'; ?>
+          
 
         </div> 
         <div id="footer"> 
