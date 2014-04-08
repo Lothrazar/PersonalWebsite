@@ -26,17 +26,37 @@ class MinecraftMod {
 $ec = new MinecraftMod();
 $ec->title = 'Ender Chest Command';
 $ec->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/enderchestcommand-1.7.2-1.0.jar';
-$ec->text = 'Adds a new command.  Type /enderchest to open your ender chest inventory anywhere anytime.  You do not have to be near one, you do not even have to build one.';
+$ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open your ender chest inventory anywhere anytime.  </p>'
+        . '<p>You do not have to be near one, you do not even have to build one. </p>'
+        . '<p>This can be seen as overpowered in the early game.  But even then, it is just an extension of your inventory </p>'
+        . '<p>In the late game, once my world gets old, I find that I always am carrying way to much stuff between tools and building and fighting '
+        . 'So this seemed like the most logical way to extend my inventory.  It means I do not have to dump ender chests everywhere, or run around looking for one all the time.</p>'
+        .'<p>This mod does not add any items or blocks, so I have no screenshots.</p>'
+        
+        ;
 $ec->version = '1.7.2-1.0';
 
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
 $sm->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/stackmax-1.7.2-1.0.jar';
-$sm->text = '
+$sm->text = 'Inspired by the classic mod by Ritsugami.
+    <br/>
+    This is a small mod that does exactly as the title implies: 
+<br/>
+It increases the stack size of every item in the game up to 64; except potions.
+<br/>
+There is a config file option to up the potion stack size to any value, but it is turned off by default.
 
-Increase the stack size of every item in the game up to 64 - except potions.
+<br/>
+I do not like using this option, but I put it in for completeness.  You can get stacked potions with commands and editors, so it made sense.  No other items show up in the config file.
+<br/>
+This makes brewing potions super cheap and overpowered, since three stacks of 64 potions can be brewed at the same time with single ingredients.
+<br/>
+Almost all automatic redstone brewing machines depend on potions not being stackable.
+<br/>
 
-There is a config file option to up the potion stack size from 1 to 3, but it is off by default.';
+
+';
 
 $sm->version = '1.7.2-1.0';
  

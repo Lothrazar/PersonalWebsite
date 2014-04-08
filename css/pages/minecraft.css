@@ -15,6 +15,9 @@ and open the template in the editor.
     border-bottom-left-radius:5px; margin-bottom:2%;
 }
 
+.mod_name{
+    
+}
 
 .mod_content{
     float:left; background-color:#35963D; width:60%; min-height:120px; 

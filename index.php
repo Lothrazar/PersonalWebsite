@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head> 
-        <?php include 'views/layout/head.php'; ?> 
+        <?php include 'views/layout/head.php';  ?> 
     </head>
     <body>
         <?php
+        
         $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
         if( !isset($page) ){ $page='home';}  ?>
 
@@ -17,7 +18,7 @@
                
                  <?php
              
-                if(isset($titles[$page])) 
+                if(isset($titles[$page]) || $page == 'admin') 
                 {
                   include('views/pages/'.$page.".php");
                 }

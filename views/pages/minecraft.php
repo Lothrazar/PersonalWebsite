@@ -55,6 +55,7 @@ foreach ($mods as $mod):
         </div>
 
         <div class="mod_content" >
+            
            <?=$mod->text; ?>
             
             
