@@ -6,9 +6,10 @@
 these are the styles that apply everywhere
 */
 
-/*fx mystery margin on top of body and other places*/
+
  
 * { 
+    /*fix mystery margin on top of body and other places*/
    margin: 0px;
    padding: 0px;
 } 
@@ -16,7 +17,7 @@ these are the styles that apply everywhere
 body,
 html { 
     color:#000;
-    background:#FFFFE5 
+    background:#FFFFEE
 }
     
 #body{
@@ -55,19 +56,9 @@ head{
     width:100%; 
 }
  
+.clear { clear: both; }
+ 
+.mod_content ul{
 
-        .clear { clear: both; }
-
-
-
-
-
-
-
-
-
-
-        .mod_content ul{
-            
-            padding-left:15px;
-        }
+    padding-left:15px;
+}

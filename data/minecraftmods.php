@@ -41,9 +41,9 @@ There is a config file option to up the potion stack size from 1 to 3, but it is
 $sm->version = '1.7.2-1.0';
  
 $rccm = new MinecraftMod();
-$rccm->title = 'Restricted Craftable Command Blocks';
+$rccm->title = 'Craftable Command Blocks';
 $rccm->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/craftablecommand-1.7.2-1.0.jar';
-$sm->version = '1.7.2-1.0';
+$rccm->version = '1.7.2-1.0';
 $rccm->text = '
 These 7 command blocks do not let anyone open the command window to edit the command.  
 <br/>
@@ -73,6 +73,7 @@ All crafted with a similar recipe, and need silk touch to pick up.
 
 $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
+$rd->version = '1.7.2-1.0';
 $rd->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/ruledetectors-1.7.2-1.0.jar';
 $rd->text = 'Each of these 5 blocks emits a redstone signal depending on if their associated game rule is on or off (on emits power, off does not).  Useful for having a light panel that shows rule status.
 
@@ -91,6 +92,7 @@ Unfortunately, when a game rule is toggled, the power does not change right away
 
 $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
+$ma->version = '1.7.2-1.0';
 $ma->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/magicapples-1.7.2-1.0.jar';
 $ma->text = '
 These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.
@@ -136,6 +138,7 @@ Weakness II (0:30)';
 
 $ef = new MinecraftMod();
 $ef->title = 'Expensive Flying';
+$ef->version = '1.7.2-1.0';
 $ef->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/expensiveflying-1.7.2-1.0.jar';
 $ef->text = '
     
@@ -146,6 +149,7 @@ $ef->text = '
 
 $hs = new MinecraftMod();
 $hs->title = 'Horse Step while Sprinting';
+$hs->version = '1.7.2-1.0';
 $hs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/horsestep-1.7.2-1.0.jar';
 $hs->text = '
     
@@ -156,6 +160,7 @@ Whenever a player is sprinting, they can walk up full blocks.  They treat blocks
     ';
  
 $lg = new MinecraftMod();
+$lg->version = '1.7.2-1.0';
 $lg->title = 'Lock Gamemode';
 $lg->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/lockgamemode-1.7.2-1.0.jar';
 $lg->text = '
@@ -167,6 +172,7 @@ Most people will find this mod silly, but I made it for myself so i would not be
 
 $rs = new MinecraftMod();
 $rs->title = 'Runestones';
+$rs->version = '1.7.2-1.0';
 $rs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/runestones-1.7.2-1.0.jar';
 $rs->text = '
 Whenever a runestone is in the top left corner of your inventory, you gain its effects.  As soon as you drop or move the item, the effect is gone.
@@ -181,6 +187,7 @@ Uses the existing hidden Health Boost effect to give you 20 hearts instead of 10
 
 $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
+$cr->version = '1.7.2-1.0';
 $cr->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/extracrafting-1.7.2-1.0.jar';
 $cr->text = '
 
@@ -198,6 +205,7 @@ Imare gallery with all recipes coming soonish.';
 
 $uc = new MinecraftMod();
 $uc->title = 'Uncrafting';
+$uc->version = '1.7.2-1.0';
 $uc->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/uncrafting-1.7.2-1.0.jar';
 $uc->text = '
     

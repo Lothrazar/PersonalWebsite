@@ -1,4 +1,6 @@
 
+        <link rel="stylesheet" type="text/css" href="css/pages/minecraft.css"> 
+        
 <div class="floating-menu">
     <ul  >
         <li><a href='#1' ><span>1</span></a></li>
@@ -43,7 +45,7 @@ foreach ($mods as $mod):
     ?>
  
     <div  class="mod_ctr" >
-        <div class="mod_logo" style="float:left; background-color:#CF6; width:15%; min-height:120px; border-top-left-radius:5px; border-bottom-left-radius:5px; margin-bottom:2%;"> 
+        <div class="mod_logo" > 
 
             <p class="mod_name"> <?=$mod->title; ?></p>  
             <p class="mod_name"> <?=$mod->version; ?></p>        
@@ -52,8 +54,8 @@ foreach ($mods as $mod):
             </p>
         </div>
 
-        <div class="mod_content" style="float:left; background-color:#CCD9F7; width:60%; min-height:120px; height:120px; overflow:hidden; border-top-right-radius:5px; border-bottom-right-radius:5px; margin-bottom:2%;"> 
-            <?=$mod->text; ?>
+        <div class="mod_content" >
+           <?=$mod->text; ?>
             
             
         </div>
