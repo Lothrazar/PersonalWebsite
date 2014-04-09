@@ -8,10 +8,11 @@
           //define menu items, keyed by the page id which identified the php file inside /views/pages/
           $titles = array();
           $titles['home'] = 'Home';
-          $titles['creating'] = 'Creating';
-          $titles['minecraft'] = 'Modding';
-          $titles['playing'] = 'Playing';
-          $titles['collecting'] = 'Collecting';
+          $titles['creating'] = 'Projects';
+          
+          $titles['minecraft'] = 'Minecraft';
+        //  $titles['playing'] = 'Playing';
+        //  $titles['collecting'] = 'Collecting';
           
           $titles['blog'] = 'Blog';
         

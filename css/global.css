@@ -30,12 +30,21 @@ head{
     height:0px;
 }
 
+@font-face {
+font-family: digital7;
+src: URL('css/digital7.ttf') format ('ttf');/*was ttf vs truetype*/
+        font-weight: normal;
+        font-style: normal;
+}
+
 #footer{
     clear: both;
     bottom:0;
+    right:0;
     position: fixed;
-    width:100%;
+   /* width:100%;*/
     height:20px; 
+    font-family:'digital7';
 }
 
 #body{  

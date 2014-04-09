@@ -8,3 +8,8 @@ Deny from all
 Order Allow,Deny
 Deny from all
 </Files>
+<FilesMatch "\.(ttf|ttc|otf|eot|woff)$">
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
