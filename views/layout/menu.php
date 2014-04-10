@@ -9,11 +9,13 @@
         
         <?php 
           //define menu items, keyed by the page id which identified the php file inside /views/pages/
-          $titles = array();
-          $titles['home'] = 'Home';
-          $titles['creating'] = 'Projects';
-          
-          $titles['minecraft'] = 'Minecraft';
+            $titles = array();
+            $titles['home'] = 'Home';
+            $titles['creating'] = 'My Games';
+            $titles['mods'] = 'My Mods'; 
+            
+
+            $titles['programming'] = 'Programming'; 
         //  $titles['playing'] = 'Playing';
         //  $titles['collecting'] = 'Collecting';
           
