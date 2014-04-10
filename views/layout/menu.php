@@ -1,7 +1,10 @@
 <link rel="stylesheet" type="text/css" href="css/menu.css">  
 
 <div>
+    
+<img class="banner" src="img/Lothrazar.png" />
 <nav id='menu'>
+    
     <ul id="nav">
         
         <?php 

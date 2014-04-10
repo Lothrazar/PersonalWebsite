@@ -17,6 +17,7 @@ and open the template in the editor.
             ,'http://blog.themeforest.net/'
             ,'http://html-color-codes.info/'
             ,'http://www.tinymce.com/'
+            ,'http://textcraft.net/'//creating my banner
             ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
             ,'https://netbeans.org/kb/docs/php/configure-php-environment-windows.html'
             ,'https://stackoverflow.com/questions/8687112/expanding-and-collapsing-div-via-jquery-css'

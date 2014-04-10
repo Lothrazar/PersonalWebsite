@@ -14,11 +14,14 @@ and open the template in the editor.
      right:0;
 }
 #icons{
-   position: absolute;
+  
     top: 0px;
     right: 0px; 
     margin-top: 2px;
-    width:32px;
+    margin-right:2px;
+    position:fixed;
+  /*  width:32px;
+     position: absolute;*/
 }
 
 
