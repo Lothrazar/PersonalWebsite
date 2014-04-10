@@ -1,6 +1,5 @@
+<link rel="stylesheet" type="text/css" href="css/pages/minecraft.css"> 
 
-        <link rel="stylesheet" type="text/css" href="css/pages/minecraft.css"> 
-        
 <div class="floating-menu">
     <ul  >
         <li><a href='#1' ><span>1</span></a></li>
@@ -37,7 +36,11 @@
 <div class="clear"></div>
 
 
+
+
+
 <?php
+//fetch the data. 
 include('/data/minecraftmods.php');
 $mods =  get_minecraftmods();
  
@@ -46,19 +49,24 @@ foreach ($mods as $mod):
  
     <div  class="mod_ctr" >
         <div class="mod_logo" > 
-
+            <section>
+                
             <p class="mod_name"> <?=$mod->title; ?></p>  
             <p class="mod_name"> <?=$mod->version; ?></p>        
             <p>
                 <a href="<?=$mod->download?>">Download</a>
             </p>
+            
+            </section> 
         </div>
 
         <div class="mod_content" >
+            <section>
             
            <?=$mod->text; ?>
             
             
+            </section> 
         </div>
  
     </div>

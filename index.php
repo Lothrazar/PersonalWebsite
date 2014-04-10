@@ -10,6 +10,8 @@
         if( !isset($page) ){ $page='home';}  ?>
 
         <div id="header"> 
+            
+            
              <?php include 'views/layout/menu.php'; ?>
         </div>
         <div id="body">
