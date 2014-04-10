@@ -29,24 +29,38 @@ $(document).ready(function()
 { 
     tinymce.init(
     {
-        selector:'textarea'
+        selector:'#textarea'
         , setup : function(editor) 
         {
             editor.on('change', function(e) 
             { 
-                $('#output').empty();
-                $('#output').html("");    
+                //$('#output').empty();
+                //$('#output').html("");    
 
-                $('#output').html(e.level.content)  ;  
+               // $('#output').html(e.level.content)  ; //<div id="output"> &nbsp;  </div>
+                
+                $('#preload').val(e.level.content);
             });
         }        
+    });
+    
+    $('#btn_preload').on('click', function()
+    {
+        console.log($('#preload').val());
+         tinyMCE.activeEditor.setContent($('#preload').val());
+    return false;
     });
 });
 </script>
 
+
+
+
 <textarea id="textarea">Your content here.</textarea>
 
 
-<div id="output"> &nbsp;  </div>
+<button id="btn_preload" style="width:800px;">Push HTML Content Up</button>
 
+
+<textarea id="preload" style="width:800px;height:125px;">Pre load html.</textarea>
  
