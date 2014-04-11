@@ -20,6 +20,16 @@
 ?>
 <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 
+<br/>
+
+<h2>Programming mini-projects</h2>
+
+<p>I have been a full time programmer for a few years (not including school), so this section is where I can put up little things that 
+are really cool, but that are not big enough for a github repository for example.</p>
+
+<br/>
+<section style="border: 1px solid; ">
+    <h3>WSYWIG editors</h3>
 <p>
 The top area of this control is something called <a href="http://www.tinymce.com/">TinyMCE</a>, an html editor made in javascript (not by me!) that is Open Source under LGPL.
 </p>
@@ -27,7 +37,11 @@ The top area of this control is something called <a href="http://www.tinymce.com
     Below that, I added a button and an empty area so you can type HTML in the lower area and push it up into the editor; and so the editor automatically 
     has somewhere to put its generated HTML content every time it gets updated.
 </p>
-
+<p>
+    
+    I used this to mock up a lot of the content on this page, including parts of the My Mods page, among others.  
+    Eventually, after evaluating this and other tools, I will use it in a private admin section for posting to the Blog section. 
+</p>
 
 <script>
    
@@ -71,3 +85,6 @@ $(document).ready(function()
 
 <textarea id="preload" style="width:800px;height:125px;">Pre load html.</textarea>
  
+
+
+</section>
