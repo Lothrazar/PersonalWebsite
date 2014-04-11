@@ -40,7 +40,7 @@ The top area of this control is something called <a href="http://www.tinymce.com
 <p>
     
     I used this to mock up a lot of the content on this page, including parts of the My Mods page, among others.  
-    Eventually, after evaluating this and other tools, I will use it in a private admin section for posting to the Blog section. 
+    Eventually, after evaluating this and other tools, I will use it in a private admin section for posting to the Blog section (which is a work in progress). 
 </p>
 
 <script>

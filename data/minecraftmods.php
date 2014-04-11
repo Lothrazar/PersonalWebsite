@@ -96,65 +96,24 @@ $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
 $rd->version = '1.7.2-1.0';
 $rd->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/ruledetectors-1.7.2-1.0.jar';
-$rd->text = 'Each of these 5 blocks emits a redstone signal depending on if their associated game rule is on or off (on emits power, off does not).  Useful for having a light panel that shows rule status.
-
--   doFireTick
-
--   doDaylightCycle
-
--   keepInventory
-
--   mobGriefing
-
--   naturalRegeneration
-
-Unfortunately, when a game rule is toggled, the power does not change right away, you have to update the block (sometimes breaking it) for it to change state
-';
+$rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if their associated
+    game rule is on or off (on emits power, off does not).&nbsp; Useful for having a light panel 
+    that shows rule status.<br></p><ul><li>&nbsp;doFireTick</li><li>&nbsp;doDaylightCycle</li><li>&nbsp;keepInventory</li>
+    <li>&nbsp;mobGriefing</li><li>&nbsp;naturalRegeneration<br></li></ul><p>Unfortunately, when a game rule is toggled, 
+    the power does not change right away, you have to update the block (sometimes breaking it) for it to change state.<br><br></p>';
 
 $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
 $ma->version = '1.7.2-1.0';
 $ma->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/magicapples-1.7.2-1.0.jar';
-$ma->text = '
-These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.
-
-Diamond
-
-Regen II (0:40)
-
-Health Boost 4 (5:00) - double your hearts up to 20 for a while
-
-Resistance (5:00)
-
-Fire Resistance (5:00)
-
-Emerald
-
-Blindness (0:10)
-
-Haste II (4:00)
-
-Weakness II (4:00)
-
-Speed (4:00)
-
-Lapis
-
-Hunger (?)
-
-Nausea (?)
-
-Night Vision II (4:00)
-
-Weakness II (4:00)
-
-Water Breathing II (4:00)
-
-Chocolate
-
-Speed II (0:30)
-
-Weakness II (0:30)';
+$ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.
+    <br><br><strong>Diamond</strong><strong> Apple</strong><br></p><ul><li>Regen II (0:40)</li><li>Health Boost 4 
+    (5:00) - double your hearts up to 20 for a while</li><li>Resistance (5:00)</li><li>Fire Resistance (5:00)<br></li>
+    </ul><p><strong>Emerald Apple</strong><br></p><ul><li>Blindness (0:10)</li><li>Haste II (4:00)</li><li>Weakness II (4:00)</li>
+    <li>Speed (4:00)<br></li></ul><p><strong>Lapis Apple</strong><br></p><ul><li>Hunger (0:10)</li><li>Nausea (0:10)</li>
+    <li>Night Vision II (4:00)</li><li>Weakness II (4:00)</li><li>Water Breathing II (4:00)<br></li></ul><p><strong>Chocolate Apple</strong>
+    <br></p><ul><li>Speed II (0:30)</li><li>Weakness II (0:30)</li></ul><p><strong>Recipes and Images coming soon
+    </strong><br data-mce-bogus="1"></p>';
 
 
 $ef = new MinecraftMod();
@@ -164,7 +123,8 @@ $ef->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/expensiveflyi
 $ef->text = '
     
  - customizable rules for limited flying in survival with debuffs
- ...
+ Lots of rules you can turn off such as disabling flying at night, while on fire, based on hunger numbers, and so on.  
+ All using the config file.  
  
     ';
 
@@ -234,5 +194,7 @@ Almost everything in the game has some sort of reverse recipe.  Ladders back int
 
 Imare gallery with all recipes coming soonish.
 ';
- return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr);
+
+
+ return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr,$uc);
   }

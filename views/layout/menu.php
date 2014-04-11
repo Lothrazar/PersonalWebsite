@@ -19,7 +19,7 @@
         //  $titles['playing'] = 'Playing';
         //  $titles['collecting'] = 'Collecting';
           
-          $titles['blog'] = 'Blog';
+     //     $titles['blog'] = 'Blog';
         
         foreach($titles as $pageid => $title):   //array defined in index.php
             $iscurrent = ($pageid == $page) ? 'current' : ''; //apply css to the current tab

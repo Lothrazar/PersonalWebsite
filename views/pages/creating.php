@@ -1,7 +1,7 @@
-
-<h3>
+<br>
+<h2>
     Creations in the web game engine <a href="http://craftyjs.com/">CraftyJS</a>.
-</h3>
+</h2>
 
 
 
