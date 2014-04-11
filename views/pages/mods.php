@@ -1,4 +1,6 @@
 <link rel="stylesheet" type="text/css" href="css/pages/mods.css"> 
+<script type="text/javascript" src="js/pages/mods.js"></script>
+
 
 <div class="floating-menu">
     <ul  >
@@ -8,7 +10,7 @@
     </ul>
 </div>
 
-
+<br/>
 <a name="top"></a> 
 <section>   
     I have a bunch of great little minecraft mods located in dropbox
@@ -16,26 +18,6 @@
 </section>
 
 <br/>
-
-<script>
-    
-    $(document).ready(function()
-    { 
-        $('.mod_content').click(function()
-        {
-            console.log($(this).height());
-            if ($(this).height() > 80)
-            {
-                $(this).animate({height: '80px'});
-            }
-            else
-            {
-                $(this).animate({height: '100%'});
-            }
-        });
-    });
-
-</script>
 
 <div class="clear"></div>
 

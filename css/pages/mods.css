@@ -21,6 +21,7 @@ and open the template in the editor.
 
 .mod_name{
     float:left;
+    font-weight:bold;
 }
 
 .mod_link{
