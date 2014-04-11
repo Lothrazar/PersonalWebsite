@@ -1,32 +1,36 @@
-<link rel="stylesheet" type="text/css" href="css/pages/minecraft.css"> 
+<link rel="stylesheet" type="text/css" href="css/pages/mods.css"> 
 
 <div class="floating-menu">
     <ul  >
-        <li><a href='#1' ><span>1</span></a></li>
-        <li><a href='#2' ><span>2</span></a></li> 
-        <li><a href='#3' ><span>3</span></a></li> 
+        <li><a href='#top' ><span>Top</span></a></li> 
+        <li><a href='#mc172' ><span>Minecraft 1.7.2</span></a></li>
+        <li><a href='#perm' ><span>Permissions</span></a></li> 
     </ul>
 </div>
 
 
-<h2>
+<a name="top"></a> 
+<section>   
+    I have a bunch of great little minecraft mods located in dropbox
 
-    I have a bunch of great little minecraft mods located in dropbox</h2>
+</section>
 
+<br/>
 
 <script>
+    
     $(document).ready(function()
-    {
-
+    { 
         $('.mod_content').click(function()
         {
-            if ($(this).height() > 150)
+            console.log($(this).height());
+            if ($(this).height() > 80)
             {
-                $(this).animate({height: '120px'});
+                $(this).animate({height: '80px'});
             }
             else
             {
-                $(this).animate({height: '300px'});
+                $(this).animate({height: '100%'});
             }
         });
     });
@@ -38,7 +42,7 @@
 
 
 
-
+<a name="mc172"></a> 
 <?php
 //fetch the data. 
 include('/data/minecraftmods.php');
@@ -52,22 +56,28 @@ foreach ($mods as $mod):
             <section>
                 
             <p class="mod_name"> <?=$mod->title; ?></p>  
-            <p class="mod_name"> <?=$mod->version; ?></p>        
-            <p>
-                <a href="<?=$mod->download?>">Download</a>
+              
+            <p class="mod_link">
+                <a href="<?=$mod->download?>">Download Latest (<?=$mod->version; ?>)</a>
             </p>
             
             </section> 
+
+            <div class="clear"></div>
+
+            <div class="mod_content" >
+                <section>
+
+               <?=$mod->text; ?>
+
+
+                </section> 
+            </div>
+            
+            
         </div>
 
-        <div class="mod_content" >
-            <section>
-            
-           <?=$mod->text; ?>
-            
-            
-            </section> 
-        </div>
+        
  
     </div>
 
@@ -80,12 +90,12 @@ foreach ($mods as $mod):
 
  
 
-
+<a name="perm"></a> 
 <h3>Permissions</h3>
 
 <p>
 This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of 
-http://www.minecraft.net/copyright.jsp"]http://www.minecraft.net/copyright.jsp is sole property of the Mod author 
+<a href="http://www.minecraft.net/copyright.jsp">http://www.minecraft.net/copyright.jsp</a> is sole property of the Mod author 
 (Sam Bassett aka Lothrazar, henceforth "Owner" or "The Owner"). By default it may only be distributed on minecraftforums.net.  
 It may only be mirrored or reposted with advance written permission of the Owner. Electronic Mail is fine if you wait for a response.  
 URL shorteners or other attempts to make money off The Owner's Mod are strictly forbidden without advance written permission.

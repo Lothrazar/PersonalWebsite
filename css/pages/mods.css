@@ -8,21 +8,34 @@ and open the template in the editor.
     Author     : Samson
 */
 
-.mod_logo{
+.mod_logo
+{      
+    background-color:#35963D;
+    /*width:40%; */
+    min-height:120px; 
+    border-radius:5px;  
     
-    float:left; background-color:#35963D;
-    width:40%; min-height:120px; border-top-left-radius:5px; 
-    border-bottom-left-radius:5px; margin-bottom:2%;
+    overflow:hidden; 
+    margin-bottom:2%;
 }
 
 .mod_name{
-    
+    float:left;
 }
 
-.mod_content{
-    float:left; background-color:#35963D; width:60%; min-height:120px; 
-    height:120px; overflow:hidden; border-top-right-radius:5px; border-bottom-right-radius:5px; margin-bottom:2%;     
-    
+.mod_link{
+    float:right;
+}
+
+.mod_content
+{ 
+    background-color:#35A63D; 
+   /* width:60%;*/
+    min-height:80px; 
+    height:80px; 
+    overflow:hidden; 
+    margin-bottom:2%;     
+     
 }
 
 .mod_content:hover{
