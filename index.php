@@ -32,7 +32,7 @@
 
                 ?>      
         
-            </td><td id="right" style="float:right; width:20px">
+            </td><td id="right"  >
           
             </td></tr></table>
 
@@ -40,10 +40,6 @@
           
 
         </div> 
-        <div id="footer"> 
-             <?php include 'views/layout/viewcounter.php'; ?> 
-            
-             <center> View Counter: <?=get_viewcount_incremented()?> </center> 
-        </div> 
+       
     </body>	
 </html>

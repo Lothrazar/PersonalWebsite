@@ -67,7 +67,9 @@ src: URL('css/digital7.ttf') format ('ttf');/*was ttf vs truetype*/
  
  #right { 
    /* background:#FFFFEF;*/
-    width:100%; 
+ 
+    float:right; 
+    width:20px;
 }
  
 .clear { clear: both; }

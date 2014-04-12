@@ -16,3 +16,10 @@
 <p>I am working on a blog system to post updates here, as well as a database for some of the things I am collectiing, but for now this landing page 
 is pretty empty.  All the cool stuff is on the other three tabs.</p>
 
+
+
+ <div id="footer"> 
+             <?php include 'views/layout/viewcounter.php'; ?> 
+            
+             <center> View Counter: <?=get_viewcount_incremented()?> </center> 
+        </div> 
