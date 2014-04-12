@@ -1,11 +1,21 @@
 <link rel="stylesheet" type="text/css" href="css/pages/mods.css"> 
 <script type="text/javascript" src="js/pages/mods.js"></script>
 
+<?php
+//fetch the data. 
+include('data/minecraftmods.php');
+$mods =  get_minecraftmods();
+?>
 
 <div class="floating-menu">
     <ul  >
         <li><a href='#top' ><span>Top</span></a></li> 
-        <li><a href='#mc172' ><span>Minecraft 1.7.2</span></a></li>
+        <?php foreach ($mods as $mod): ?>
+        
+ 
+        <li><a href='#<?=$mod->title?>' ><span><?=$mod->title?></span></a></li>
+        
+        <?php endforeach; ?>
         <li><a href='#perm' ><span>Permissions</span></a></li> 
     </ul>
 </div>
@@ -31,15 +41,10 @@
 
 
 
-<a name="mc172"></a> 
-<?php
-//fetch the data. 
-include('data/minecraftmods.php');
-$mods =  get_minecraftmods();
+
+<?php foreach ($mods as $mod): ?>
  
-foreach ($mods as $mod):
-    ?>
- 
+<a name="<?=$mod->title?>"></a> 
     <div  class="mod_ctr" >
         <div class="mod_logo" > 
             <section>

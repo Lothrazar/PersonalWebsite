@@ -133,7 +133,7 @@ $ef->text = '
     ';
 
 $hs = new MinecraftMod();
-$hs->title = 'Horse Step while Sprinting';
+$hs->title = 'Horse Step Sprinting';
 $hs->version = '1.7.2-1.0';
 $hs->download = 'http://www.mediafire.com/download/gp56kroka18sur1/horsestep-1.7.2-1.0.jar';
 $hs->text = '
