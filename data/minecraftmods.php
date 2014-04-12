@@ -26,7 +26,7 @@ class MinecraftMod {
 
 $ec = new MinecraftMod();
 $ec->title = 'Ender Chest Command';
-$ec->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/enderchestcommand-1.7.2-1.0.jar';
+$ec->download = 'http://www.mediafire.com/download/85udbr3jj81f87x/enderchestcommand-1.7.2-1.0.jar';
 $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open your ender chest inventory anywhere anytime.  </p>
         <p>You do not have to be near one, you do not even have to build one. </p>
         <p>This can be seen as overpowered in the early game.  But even then, it is just an extension of your inventory </p>
@@ -40,7 +40,7 @@ $ec->version = '1.7.2-1.0';
 
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
-$sm->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/stackmax-1.7.2-1.0.jar';
+$sm->download = 'http://www.mediafire.com/download/qmy296g2qz6eazq/stackmax-1.7.2-1.0.jar';
 $sm->text = 'Inspired by the classic mod by Ritsugami.
     <br/>
     This is a small mod that does exactly as the title implies: 
@@ -64,7 +64,7 @@ $sm->version = '1.7.2-1.0';
  
 $rccm = new MinecraftMod();
 $rccm->title = 'Craftable Command Blocks';
-$rccm->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/craftablecommand-1.7.2-1.0.jar';
+$rccm->download = 'http://www.mediafire.com/download/918q4vsiobm1jqm/craftablecommand-1.7.2-1.0.jar';
 $rccm->version = '1.7.2-1.0';
 $rccm->text = '
 These 7 command blocks do not let anyone open the command window to edit the command.  
@@ -96,7 +96,7 @@ All crafted with a similar recipe, and need silk touch to pick up.
 $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
 $rd->version = '1.7.2-1.0';
-$rd->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/ruledetectors-1.7.2-1.0.jar';
+$rd->download = 'http://www.mediafire.com/download/vhtnxdzlauarq12/ruledetectors-1.7.2-1.0.jar';
 $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if their associated
     game rule is on or off (on emits power, off does not).&nbsp; Useful for having a light panel 
     that shows rule status.<br></p><ul><li>&nbsp;doFireTick</li><li>&nbsp;doDaylightCycle</li><li>&nbsp;keepInventory</li>
@@ -106,21 +106,23 @@ $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if t
 $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
 $ma->version = '1.7.2-1.0';
-$ma->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/magicapples-1.7.2-1.0.jar';
-$ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.
-    <br><br><strong>Diamond</strong><strong> Apple</strong><br></p><ul><li>Regen II (0:40)</li><li>Health Boost 4 
-    (5:00) - double your hearts up to 20 for a while</li><li>Resistance (5:00)</li><li>Fire Resistance (5:00)<br></li>
-    </ul><p><strong>Emerald Apple</strong><br></p><ul><li>Blindness (0:10)</li><li>Haste II (4:00)</li><li>Weakness II (4:00)</li>
-    <li>Speed (4:00)<br></li></ul><p><strong>Lapis Apple</strong><br></p><ul><li>Hunger (0:10)</li><li>Nausea (0:10)</li>
+$ma->download = 'http://www.mediafire.com/download/ybrnyx1by5hl6re/magicapples-1.7.2-1.0.jar';
+$ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.&nbsp; 
+    I use these quite often, since they take the place of potions that do not exist such as Haste II and Health Boost.&nbsp;
+    So if you want that Haste II effect without setting up a beacon, this is what you need.&nbsp; All except the chocolate one can 
+    be smelted back into ores in a furnace, if you make too many.&nbsp; <br><br><strong>Diamond</strong><strong> Apple</strong><br>
+    </p><ul><li>Regen II (0:20)</li><li>Health Boost 4 (5:00) - ten extra hearts<br></li><li>Resistance (5:00)</li><li>Fire Resistance (5:00
+    )<br></li></ul><p><strong>Emerald Apple</strong><br></p><ul><li>Blindness (0:10)</li><li>Haste II (4:00)</li><li>Weakness II (4:00)</li>
+    <li>Speed (4:00)<br></li></ul><p><strong>Lapis Apple</strong><br></p><ul><li>Hunger (0:05)</li><li>Nausea (0:10)</li>
     <li>Night Vision II (4:00)</li><li>Weakness II (4:00)</li><li>Water Breathing II (4:00)<br></li></ul><p><strong>Chocolate Apple</strong>
-    <br></p><ul><li>Speed II (0:30)</li><li>Weakness II (0:30)</li></ul><p><strong>
-    </strong><br data-mce-bogus="1"></p>';
+    <br></p><ul><li>Speed II (0:30)</li><li>Weakness II (0:30)</li><li>Nausea II (0:01)</li></ul><p><br></p>
+    ';
 
 
 $ef = new MinecraftMod();
 $ef->title = 'Expensive Flying';
 $ef->version = '1.7.2-1.0';
-$ef->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/expensiveflying-1.7.2-1.0.jar';
+$ef->download = 'http://www.mediafire.com/download/08374qmca6uxf37/expensiveflying-1.7.2-1.0.jar';
 $ef->text = '
     
  - customizable rules for limited flying in survival with debuffs
@@ -132,7 +134,7 @@ $ef->text = '
 $hs = new MinecraftMod();
 $hs->title = 'Horse Step while Sprinting';
 $hs->version = '1.7.2-1.0';
-$hs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/horsestep-1.7.2-1.0.jar';
+$hs->download = 'http://www.mediafire.com/download/gp56kroka18sur1/horsestep-1.7.2-1.0.jar';
 $hs->text = '
     
 Horse Step while Sprinting - walk up full blocks like a horse
@@ -144,7 +146,7 @@ Whenever a player is sprinting, they can walk up full blocks.  They treat blocks
 $lg = new MinecraftMod();
 $lg->version = '1.7.2-1.0';
 $lg->title = 'Lock Gamemode';
-$lg->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/lockgamemode-1.7.2-1.0.jar';
+$lg->download = 'http://www.mediafire.com/download/bcm256dxxusn1c8/lockgamemode-1.7.2-1.0.jar';
 $lg->text = '
 
 Pick a game mode (by default the config file picks survival).  Every player is now locked in that mode.  If their gamemode changes for any reason, this mod will change it back right away.
@@ -155,7 +157,7 @@ Most people will find this mod silly, but I made it for myself so i would not be
 $rs = new MinecraftMod();
 $rs->title = 'Runestones';
 $rs->version = '1.7.2-1.0';
-$rs->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/runestones-1.7.2-1.0.jar';
+$rs->download = 'http://www.mediafire.com/download/lmryujc29946mmh/runestones-1.7.2-1.0.jar';
 $rs->text = '
 Whenever a runestone is in the top left corner of your inventory, you gain its effects.  As soon as you drop or move the item, the effect is gone.
 
@@ -171,7 +173,7 @@ $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
 $cr->version = '1.7.2-1.0';
 $cr->imguralbum='huBkp';
-$cr->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/extracrafting-1.7.2-1.0.jar';
+$cr->download = 'http://www.mediafire.com/download/k51qsth0i0ghpt2/extracrafting-1.7.2-1.0.jar';
 
 $cr->text = '
 
@@ -190,7 +192,7 @@ $uc = new MinecraftMod();
 $uc->title = 'Uncrafting';
 $uc->version = '1.7.2-1.0';
 $uc->imguralbum='KZo8s';
-$uc->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/uncrafting-1.7.2-1.0.jar';
+$uc->download = 'http://www.mediafire.com/download/r7vgqaaz0d0f1af/uncrafting-1.7.2-1.0.jar';
 $uc->text = '
     
 Almost everything in the game has some sort of reverse recipe.  Ladders back into sticks, Stone bricks back into Stone, you name it.
