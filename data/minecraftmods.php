@@ -107,6 +107,7 @@ $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
 $ma->version = '1.7.2-1.0';
 $ma->download = 'http://www.mediafire.com/download/ybrnyx1by5hl6re/magicapples-1.7.2-1.0.jar';
+$ma->imguralbum='Qqh0q';
 $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.&nbsp; 
     I use these quite often, since they take the place of potions that do not exist such as Haste II and Health Boost.&nbsp;
     So if you want that Haste II effect without setting up a beacon, this is what you need.&nbsp; All except the chocolate one can 
