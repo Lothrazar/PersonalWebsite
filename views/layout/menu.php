@@ -2,7 +2,18 @@
 
 <div>
     
+<div style="   float:left;">
 <img class="banner" src="img/Lothrazar.png" />
+</div>
+
+<div style="   float:right;">
+  <?php include 'views/layout/icons.php'; ?>
+</div>
+
+<div style="clear:both"></div>
+
+
+
 <nav id='menu'>
     
     <ul id="nav">
@@ -32,3 +43,6 @@
     </ul>
 </nav>
 </div>
+
+
+ 

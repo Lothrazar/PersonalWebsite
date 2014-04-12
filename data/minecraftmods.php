@@ -16,7 +16,8 @@ class MinecraftMod {
     public $text = '';
     public $version = '';
     public $mcversion = '';
-    public $images = array();
+    public $imguralbum = '';
+ 
 }
 //CMD SHIFT R
   function get_minecraftmods()
@@ -112,7 +113,7 @@ $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in
     </ul><p><strong>Emerald Apple</strong><br></p><ul><li>Blindness (0:10)</li><li>Haste II (4:00)</li><li>Weakness II (4:00)</li>
     <li>Speed (4:00)<br></li></ul><p><strong>Lapis Apple</strong><br></p><ul><li>Hunger (0:10)</li><li>Nausea (0:10)</li>
     <li>Night Vision II (4:00)</li><li>Weakness II (4:00)</li><li>Water Breathing II (4:00)<br></li></ul><p><strong>Chocolate Apple</strong>
-    <br></p><ul><li>Speed II (0:30)</li><li>Weakness II (0:30)</li></ul><p><strong>Recipes and Images coming soon
+    <br></p><ul><li>Speed II (0:30)</li><li>Weakness II (0:30)</li></ul><p><strong>
     </strong><br data-mce-bogus="1"></p>';
 
 
@@ -169,7 +170,9 @@ Uses the existing hidden Health Boost effect to give you 20 hearts instead of 10
 $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
 $cr->version = '1.7.2-1.0';
+$cr->imguralbum='huBkp';
 $cr->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/extracrafting-1.7.2-1.0.jar';
+
 $cr->text = '
 
 Almost all the uncraftable items are given a recipe (excluding end portal frames and command blocks, etc).
@@ -181,18 +184,19 @@ The huge config file allows you to turn sections on and off, for example in case
 Also some little recipes like crafting lily pads, and changing saplings to sticks.
 
 Includes the chiseled stone and mossy cobble recipes pulled from the 1.8 snapshots.
-
-Imare gallery with all recipes coming soonish.';
+';
 
 $uc = new MinecraftMod();
 $uc->title = 'Uncrafting';
 $uc->version = '1.7.2-1.0';
+$uc->imguralbum='KZo8s';
 $uc->download = 'https://dl.dropboxusercontent.com/u/40119435/mods/uncrafting-1.7.2-1.0.jar';
 $uc->text = '
     
 Almost everything in the game has some sort of reverse recipe.  Ladders back into sticks, Stone bricks back into Stone, you name it.
-
-Imare gallery with all recipes coming soonish.
+<br/>
+Click to see the image gallery with a small sampling of the many recipes.
+ 
 ';
 
 

@@ -34,7 +34,7 @@
 <a name="mc172"></a> 
 <?php
 //fetch the data. 
-include('/data/minecraftmods.php');
+include('data/minecraftmods.php');
 $mods =  get_minecraftmods();
  
 foreach ($mods as $mod):
@@ -59,7 +59,11 @@ foreach ($mods as $mod):
 
                <?=$mod->text; ?>
 
+                <?php if($mod->imguralbum ): ?>
 
+                <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/<?=$mod->imguralbum; ?>/embed"></iframe>
+                
+                <?php endif;?>
                 </section> 
             </div>
             

@@ -11,7 +11,9 @@
 
         <div id="header"> 
              
+            
              <?php include 'views/layout/menu.php'; ?>
+         
         </div>
         <div id="body">
       
@@ -30,11 +32,11 @@
 
                 ?>      
         
-            </td><td id="right">
-           
+            </td><td id="right" style="float:right; width:20px">
+          
             </td></tr></table>
 
-            <?php include 'views/layout/icons.php'; ?>
+           
           
 
         </div> 
