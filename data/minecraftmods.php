@@ -38,6 +38,7 @@ $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open
         ;
 $ec->version = '1.7.2-1.0';
 
+
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
 $sm->download = 'http://www.mediafire.com/download/qmy296g2qz6eazq/stackmax-1.7.2-1.0.jar';
@@ -64,8 +65,9 @@ $sm->version = '1.7.2-1.0';
  
 $rccm = new MinecraftMod();
 $rccm->title = 'Craftable Command Blocks';
-$rccm->download = 'http://www.mediafire.com/download/918q4vsiobm1jqm/craftablecommand-1.7.2-1.0.jar';
+$rccm->download = 'http://www.mediafire.com/download/g4g45p83v5ew6t7/craftablecommand-1.7.2-1.0.jar';
 $rccm->version = '1.7.2-1.0';
+$rccm->imguralbum='7r1Nu';
 $rccm->text = '
 These 7 command blocks do not let anyone open the command window to edit the command.  
 <br/>
