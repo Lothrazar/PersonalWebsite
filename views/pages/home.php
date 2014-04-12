@@ -18,6 +18,17 @@ is pretty empty.  All the cool stuff is on the other three tabs.</p>
 
 
 
+
+<br/>
+
+To fill this empty space, here is an album of images I uploaded way back in December 2011.  Back when I played on an old reddit minecraft 
+server  (<a href="mcpublic.reddit.com">here</a> and formerly <a href="pvelothos.reddit.com">here</a>).
+
+<br/>
+
+ <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/UScAf/embed"></iframe>
+                
+
  <div id="footer"> 
              <?php include 'views/layout/viewcounter.php'; ?> 
             
