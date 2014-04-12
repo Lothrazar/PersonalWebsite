@@ -8,6 +8,15 @@ and open the template in the editor.
     Author     : Samson
 */
 
+body{
+    background-image: url(/img/bkg/MinecraftGrass.jpg)
+}
+
+section.panel{
+    background: none repeat scroll 0 0 #FFF4C8;
+    border: 1px solid #FFCC00;
+}
+
 .mod_logo
 {      
     background-color:#35963D;
@@ -17,6 +26,8 @@ and open the template in the editor.
     
     overflow:hidden; 
     margin-bottom:2%;
+    
+    
 }
 
 .mod_name{

@@ -13,7 +13,7 @@
 <br/>
 <a name="top"></a> 
 
-<section>   
+<section class="panel">   
     <h2>Minecraft Mods</h2>
     <h2>Currently I have some fun mods in Minecraft Forge that I am using in my single player world</h2>
 
@@ -84,16 +84,17 @@ foreach ($mods as $mod):
  
 
 <a name="perm"></a> 
-<h3>Permissions</h3>
+<section class="panel">
+    <h3>Permissions</h3>
 
-<p>
-This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of 
-<a href="http://www.minecraft.net/copyright.jsp">http://www.minecraft.net/copyright.jsp</a> is sole property of the Mod author 
-(Sam Bassett aka Lothrazar, henceforth "Owner" or "The Owner"). By default it may only be distributed on minecraftforums.net.  
-It may only be mirrored or reposted with advance written permission of the Owner. Electronic Mail is fine if you wait for a response.  
-URL shorteners or other attempts to make money off The Owner's Mod are strictly forbidden without advance written permission.
+    <p>
+    This mod (plugin, a patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of 
+    <a href="http://www.minecraft.net/copyright.jsp">http://www.minecraft.net/copyright.jsp</a> is sole property of the Mod author 
+    (Sam Bassett aka Lothrazar, henceforth "Owner" or "The Owner"). By default it may only be distributed on minecraftforums.net.  
+    It may only be mirrored or reposted with advance written permission of the Owner. Electronic Mail is fine if you wait for a response.  
+    URL shorteners or other attempts to make money off The Owner's Mod are strictly forbidden without advance written permission.
 
-However, you are free to include this mod as-is in a ModPack as long as you credit the Owner.
-</p>
+    However, you are free to include this mod as-is in a ModPack as long as you credit the Owner.
+    </p>
 
- 
+ </section>
