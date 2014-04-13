@@ -128,11 +128,13 @@ $ef = new MinecraftMod();
 $ef->title = 'Expensive Flying';
 $ef->version = '1.7.2-1.0';
 $ef->download = 'http://www.mediafire.com/download/08374qmca6uxf37/expensiveflying-1.7.2-1.0.jar';
-$ef->text = '
-    
- - customizable rules for limited flying in survival with debuffs
- Lots of rules you can turn off such as disabling flying at night, while on fire, based on hunger numbers, and so on.  
- All using the config file.  
+$ef->text = 'Flying in survival mode.  While flying, you have <b>Weakness III</b>
+and <b>Mining Fatigue III</b>, making it nearly impossible to break blocks or fight anything.  
+You will also have your levels drained while flying, unless you tweak the config file.  
+<br/>Listed below (coming soon) are the config file options to let you 
+change the flying rules.   The default leaves them all turned on.  
+A video on this is coming soon.  Config file is shown below.  <br/>
+<p>&nbsp;&nbsp;&nbsp; # When this is true, you cannot use survival flying at night.<br>&nbsp;&nbsp;&nbsp; B:cannotFlyAtNight=true<br><br>&nbsp;&nbsp;&nbsp; # When this is true, you cannot use survival flying in the rain.<br>&nbsp;&nbsp;&nbsp; B:cannotFlyInRain=true<br><br>&nbsp;&nbsp;&nbsp; # When true, this disables flying while you are burning.<br>&nbsp;&nbsp;&nbsp; B:cannotFlyWhileBurning=true<br><br>&nbsp;&nbsp;&nbsp; # Minimum difficulty required for survival fly (0 = Peaceful, 3 = Hard).<br>&nbsp;&nbsp;&nbsp; I:difficultyRequiredToFly=3<br><br>&nbsp;&nbsp;&nbsp; # When this is true, your XP Levels will drain while flying.<br>&nbsp;&nbsp;&nbsp; B:doesDrainLevels=true<br><br>&nbsp;&nbsp;&nbsp; # Affects how fast you lose XP levels while flying.&nbsp; Larger numbers is slower drain.&nbsp; Minimum 5.<br>&nbsp;&nbsp;&nbsp; I:flycountdown=70<br><br>&nbsp;&nbsp;&nbsp; # When this is true, you may only fly if not wearing any armor. <br>&nbsp;&nbsp;&nbsp; B:noArmorFlyingOnly=true<br><br>&nbsp;&nbsp;&nbsp; # The minimum level required to fly in survival. &nbsp;<br>&nbsp;&nbsp;&nbsp; I:startFlyingLevel=10<br><br>&nbsp;&nbsp;&nbsp; # The minimum health required in order to fly in survival.&nbsp; Each number is one half heart, so 20 means 10 hearts.<br>&nbsp;&nbsp;&nbsp; I:startflyinghealth=20<br><br>&nbsp;&nbsp;&nbsp; # Minimum hunger required to fly.&nbsp; Each number is one half hunger, so 20 means full hunger.<br>&nbsp;&nbsp;&nbsp; I:startflyinghunger=14</p><p><strong><br data-mce-bogus="1"></strong></p><p><strong><br data-mce-bogus="1"></strong></p>
  
     ';
 
