@@ -42,6 +42,7 @@ $ec->version = '1.7.2-1.0';
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
 $sm->download = 'http://www.mediafire.com/download/qmy296g2qz6eazq/stackmax-1.7.2-1.0.jar';
+$sm->imguralbum = 'Xa1lK';
 $sm->text = 'Inspired by the classic mod by Ritsugami.
     <br/>
     This is a small mod that does exactly as the title implies: 
@@ -98,6 +99,7 @@ All crafted with a similar recipe, and need silk touch to pick up.
 $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
 $rd->version = '1.7.2-1.0';
+$rd->imguralbum='XBurD';
 $rd->download = 'http://www.mediafire.com/download/vhtnxdzlauarq12/ruledetectors-1.7.2-1.0.jar';
 $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if their associated
     game rule is on or off (on emits power, off does not).&nbsp; Useful for having a light panel 
@@ -141,8 +143,10 @@ $hs->download = 'http://www.mediafire.com/download/gp56kroka18sur1/horsestep-1.7
 $hs->text = '
     
 Horse Step while Sprinting - walk up full blocks like a horse
-Whenever a player is sprinting, they can walk up full blocks.  They treat blocks as if they were halfslabs, just like horses do.
- ...
+Whenever a player is sprinting, they can walk up full blocks.  They treat blocks as if they were 
+halfslabs, just like horses do.
+<br/>
+This speeds up the game so much, and reduces a lot of that frustrating jumping up mountains and hills.
  
     ';
  
@@ -160,17 +164,24 @@ Most people will find this mod silly, but I made it for myself so i would not be
 $rs = new MinecraftMod();
 $rs->title = 'Runestones';
 $rs->version = '1.7.2-1.0';
+$rs->imguralbum='SZn1o';
 $rs->download = 'http://www.mediafire.com/download/lmryujc29946mmh/runestones-1.7.2-1.0.jar';
-$rs->text = '
-Whenever a runestone is in the top left corner of your inventory, you gain its effects.  As soon as you drop or move the item, the effect is gone.
+$rs->text = '<p>Whenever a runestone is in the top left corner of your inventory, you gain its effects. 
+    &nbsp;<br>As soon as you drop or move the item, the effect is gone.<br></p><p>Effects and recipes 
+    listed below.&nbsp; All runes can be smelted into a furnace to return them back to plain nether stars.
+    &nbsp; This is important when uninstalling the mod.<br data-mce-bogus="1"></p><p><br><strong>
+    Resistance Rune</strong> gives <strong>Resistance II</strong>, the same as a full beacon<br>
+    <br><strong>Health Boost Rune</strong> gives <strong>Health Boost V</strong>, which is 10 extra 
+    red hearts<br></p><p><strong>Saturation Rune </strong>gives <strong>Saturation</strong>, meaning 
+    your hunger bar never goes down<br data-mce-bogus="1"></p><p></p><p><strong>Jump Boost Rune </strong>
+    gives <strong>Jump Boost V</strong>, more powerful than a full beacon<br></p><p><strong>Resistance Rune
+    </strong> gives&nbsp;<strong>Resistance II</strong>, the same as a full beacon<strong> </strong>
+    </p><p><strong>Haste Rune </strong>gives <strong>Haste II</strong>, the same as a full beacon
+    <br></p><p><strong>Water Breathing Rune&nbsp;</strong>gives<strong> Water Breathing V</strong>
+    , more powerful than the potion </p><p><strong>
+    <br data-mce-bogus="1"></strong></p><p><strong><br data-mce-bogus="1"></strong></p>
 
-Resistance Rune
-
-Gives you permament Resistance II, just like from a beacon.
-
-GoldHeart Rune
-
-Uses the existing hidden Health Boost effect to give you 20 hearts instead of 10 - one full extra row. ';
+';
 
 $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
