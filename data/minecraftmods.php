@@ -17,6 +17,7 @@ class MinecraftMod {
     public $version = '';
     public $mcversion = '';
     public $imguralbum = '';
+    public $youtube = '';
  
 }
 //CMD SHIFT R
@@ -229,5 +230,5 @@ Click to see the image gallery with a small sampling of the many recipes.
 ';
 
 
- return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr,$uc,$msort);
+ return array($msort,$ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr,$uc);
   }

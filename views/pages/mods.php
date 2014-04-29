@@ -8,11 +8,10 @@ $mods =  get_minecraftmods();
 ?>
 
 <div class="floating-menu">
-    <ul  >
+    <ul>
         <li><a href='#top' ><span>Top</span></a></li> 
         <?php foreach ($mods as $mod): ?>
-        
- 
+         
         <li><a href='#<?=$mod->title?>' ><span><?=$mod->title?></span></a></li>
         
         <?php endforeach; ?>
@@ -68,6 +67,11 @@ $mods =  get_minecraftmods();
 
                 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/<?=$mod->imguralbum; ?>/embed"></iframe>
                 
+                <?php endif;?>
+                
+                <?php if($mod->youtube ): //currently no mods have both video AND imgur?>
+
+                 <iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/<?=$mod->youtube?>" width="420"></iframe>
                 <?php endif;?>
                 </section> 
             </div>
