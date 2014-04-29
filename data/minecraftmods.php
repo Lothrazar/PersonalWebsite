@@ -43,7 +43,7 @@ $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open
 $msort = new MinecraftMod();
 $msort->title = 'Magic Sorting (Quick Stack)';
 $msort->download = 'http://www.mediafire.com/download/9iddhnn8fscz5sg/magicsort-1.7.2-1.1.jar';
-$msort->imguralbum = '';
+$msort->youtube = 'ELdHnCqwGz8';
 $msort->version = '1.7.2-1.1';
 $msort->text = 'My most useful mod.  Simply punch a chest with an empty hand, and it smartly sorts all your items into the chest.  It works 
     in a very similar way to Quick Stack in Terraria

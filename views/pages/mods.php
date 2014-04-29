@@ -74,7 +74,8 @@ $mods =  get_minecraftmods();
                 
                 <?php if($mod->youtube ): //currently no mods have both video AND imgur?>
 
-                 <iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/<?=$mod->youtube?>" width="420"></iframe>
+                <iframe width="560" height="315" src="//www.youtube.com/embed/<?=$mod->youtube?>" frameborder="0" allowfullscreen></iframe>
+        
                 <?php endif;?>
                 </section> 
             </div>
