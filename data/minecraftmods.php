@@ -26,6 +26,7 @@ class MinecraftMod {
 
 $ec = new MinecraftMod();
 $ec->title = 'Ender Chest Command';
+$ec->version = '1.7.2-1.0';
 $ec->download = 'http://www.mediafire.com/download/85udbr3jj81f87x/enderchestcommand-1.7.2-1.0.jar';
 $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open your ender chest inventory anywhere anytime.  </p>
         <p>You do not have to be near one, you do not even have to build one. </p>
@@ -36,33 +37,42 @@ $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open
         <p>This mod does not add any items or blocks, so I have no screenshots.</p>'
         
         ;
-$ec->version = '1.7.2-1.0';
+ 
 
+$msort = new MinecraftMod();
+$msort->title = 'Magic Sorting (Quick Stack)';
+$msort->download = 'http://www.mediafire.com/download/t9335jey17e8mrr/magicsort-1.7.2-1.0.jar';
+$msort->imguralbum = '';
+$msort->version = '1.7.2-1.0';
+$msort->text = 'My most useful mod.  Simply punch a chest with an empty hand, and it smartly sorts all your items into the chest.  It works 
+    in a very similar way to Quick Stack in Terraria
+    <br/>
+      It will look in the chest for stacks of items, and tries to fill them from your inventory.  For example, if the chest has one cobblestone, and your inventory 
+      has ten cobblestone, it will deposit all ten.  But if the chest has 50, and your inventory has 20, it will only deposit 14 into the chest to make 
+      the chest have a full stack of 64.  It will not put any item into empty spots in the chest.
+<br/>
+It will not deposit anything from your hotbar.  Also, it will only use the half of the double chest that actually was hit, so you may need to hit both sides.
+<br/>
+By default it sends out a chat message to you whenever something is deposited; you can turn this off in the config file.
+
+';
 
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
 $sm->download = 'http://www.mediafire.com/download/qmy296g2qz6eazq/stackmax-1.7.2-1.0.jar';
 $sm->imguralbum = 'Xa1lK';
+$sm->version = '1.7.2-1.0';
 $sm->text = 'Inspired by the classic mod by Ritsugami.
-    <br/>
-    This is a small mod that does exactly as the title implies: 
+    This is a small mod that does exactgily as the title implies: 
 <br/>
 It increases the stack size of every item in the game up to 64; except potions.
-<br/>
 There is a config file option to up the potion stack size to any value, but it is turned off by default.
 
 <br/>
 I do not like using this option, but I put it in for completeness.  You can get stacked potions with commands and editors, so it made sense.  No other items show up in the config file.
 <br/>
-This makes brewing potions super cheap and overpowered, since three stacks of 64 potions can be brewed at the same time with single ingredients.
-<br/>
 Almost all automatic redstone brewing machines depend on potions not being stackable.
-<br/>
-
-
-';
-
-$sm->version = '1.7.2-1.0';
+<br/>';
  
 $rccm = new MinecraftMod();
 $rccm->title = 'Craftable Command Blocks';
@@ -195,7 +205,8 @@ $cr->text = '
 
 Almost all the uncraftable items are given a recipe (excluding end portal frames and command blocks, etc).
 
-Includes things like sponge, podzol, packed ice, Dirt with damage value 1, horse armor, name tags, cobwebs, and so on.  Even the secret double slabs (http://minecraft.gamepedia.com/File:Newstoneslab.png).
+Includes things like sponge, podzol, packed ice, Dirt with damage value 1, horse armor, name tags, cobwebs, and so on.  Even the 
+<a href="http://minecraft.gamepedia.com/File:Newstoneslab.png">secret double slabs </a>.
 
 The huge config file allows you to turn sections on and off, for example in case you want to disable the horse armor recipe.
 
@@ -218,5 +229,5 @@ Click to see the image gallery with a small sampling of the many recipes.
 ';
 
 
- return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr,$uc);
+ return array($ec,$sm,$rccm,$rd,$ma,$ef,$hs,$lg,$rs,$cr,$uc,$msort);
   }
