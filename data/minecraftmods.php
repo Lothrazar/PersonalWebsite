@@ -27,8 +27,8 @@ class MinecraftMod {
 
 $ec = new MinecraftMod();
 $ec->title = 'Ender Chest Command';
-$ec->version = '1.7.2-1.0';
-$ec->download = 'http://www.mediafire.com/download/85udbr3jj81f87x/enderchestcommand-1.7.2-1.0.jar';
+$ec->version = '1.7.2-1.1';
+$ec->download = 'http://www.mediafire.com/download/xbyp54evxkrsyf4/enderchestcommand-1.7.2-1.1.jar';
 $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open your ender chest inventory anywhere anytime.  </p>
         <p>You do not have to be near one, you do not even have to build one. </p>
         <p>This can be seen as overpowered in the early game.  But even then, it is just an extension of your inventory </p>
@@ -42,7 +42,7 @@ $ec->text = '<p>Adds a new command: /enderchest</p>  <p>Type /enderchest to open
 
 $msort = new MinecraftMod();
 $msort->title = 'Magic Sorting (Quick Stack)';
-$msort->download = 'http://www.mediafire.com/download/t9335jey17e8mrr/magicsort-1.7.2-1.0.jar';
+$msort->download = 'http://www.mediafire.com/download/9iddhnn8fscz5sg/magicsort-1.7.2-1.1.jar';
 $msort->imguralbum = '';
 $msort->version = '1.7.2-1.0';
 $msort->text = 'My most useful mod.  Simply punch a chest with an empty hand, and it smartly sorts all your items into the chest.  It works 
@@ -60,7 +60,7 @@ By default it sends out a chat message to you whenever something is deposited; y
 
 $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
-$sm->download = 'http://www.mediafire.com/download/qmy296g2qz6eazq/stackmax-1.7.2-1.0.jar';
+$sm->download = 'http://www.mediafire.com/download/p50bc21pc7830ex/stackmax-1.7.2-1.1.jar';
 $sm->imguralbum = 'Xa1lK';
 $sm->version = '1.7.2-1.0';
 $sm->text = 'Inspired by the classic mod by Ritsugami.
@@ -77,7 +77,7 @@ Almost all automatic redstone brewing machines depend on potions not being stack
  
 $rccm = new MinecraftMod();
 $rccm->title = 'Craftable Command Blocks';
-$rccm->download = 'http://www.mediafire.com/download/g4g45p83v5ew6t7/craftablecommand-1.7.2-1.0.jar';
+$rccm->download = 'http://www.mediafire.com/download/17xagzpxa76v04m/craftablecommand-1.7.2-1.1.jar';
 $rccm->version = '1.7.2-1.0';
 $rccm->imguralbum='7r1Nu';
 $rccm->text = '
@@ -111,7 +111,7 @@ $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
 $rd->version = '1.7.2-1.0';
 $rd->imguralbum='XBurD';
-$rd->download = 'http://www.mediafire.com/download/vhtnxdzlauarq12/ruledetectors-1.7.2-1.0.jar';
+$rd->download = 'http://www.mediafire.com/download/jfita0difs9do6t/ruledetectors-1.7.2-1.1.jar';
 $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if their associated
     game rule is on or off (on emits power, off does not).&nbsp; Useful for having a light panel 
     that shows rule status.<br></p><ul><li>&nbsp;doFireTick</li><li>&nbsp;doDaylightCycle</li><li>&nbsp;keepInventory</li>
@@ -121,7 +121,7 @@ $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if t
 $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
 $ma->version = '1.7.2-1.0';
-$ma->download = 'http://www.mediafire.com/download/ybrnyx1by5hl6re/magicapples-1.7.2-1.0.jar';
+$ma->download = 'http://www.mediafire.com/download/6j0j0jak353ush5/magicapples-1.7.2-1.1.jar';
 $ma->imguralbum='Qqh0q';
 $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.&nbsp; 
     I use these quite often, since they take the place of potions that do not exist such as Haste II and Health Boost.&nbsp;
@@ -138,7 +138,7 @@ $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in
 $ef = new MinecraftMod();
 $ef->title = 'Expensive Flying';
 $ef->version = '1.7.2-1.0';
-$ef->download = 'http://www.mediafire.com/download/08374qmca6uxf37/expensiveflying-1.7.2-1.0.jar';
+$ef->download = 'http://www.mediafire.com/download/1i52kkc1slfgp9p/expensiveflying-1.7.2-1.1.jar';
 $ef->text = 'Flying in survival mode.  While flying, you have <b>Weakness III</b>
 and <b>Mining Fatigue III</b>, making it nearly impossible to break blocks or fight anything.  
 You will also have your levels drained while flying, unless you tweak the config file.  
@@ -152,7 +152,7 @@ A video on this is coming soon.  Config file is shown below.  <br/>
 $hs = new MinecraftMod();
 $hs->title = 'Horse Step Sprinting';
 $hs->version = '1.7.2-1.0';
-$hs->download = 'http://www.mediafire.com/download/gp56kroka18sur1/horsestep-1.7.2-1.0.jar';
+$hs->download = 'http://www.mediafire.com/download/j1ho1bbue8oawzk/horsestep-1.7.2-1.1.jar';
 $hs->text = '
     
 Horse Step while Sprinting - walk up full blocks like a horse
@@ -166,7 +166,7 @@ This speeds up the game so much, and reduces a lot of that frustrating jumping u
 $lg = new MinecraftMod();
 $lg->version = '1.7.2-1.0';
 $lg->title = 'Lock Gamemode';
-$lg->download = 'http://www.mediafire.com/download/bcm256dxxusn1c8/lockgamemode-1.7.2-1.0.jar';
+$lg->download = 'http://www.mediafire.com/download/vlvf6movysk7v7c/lockgamemode-1.7.2-1.1.jar';
 $lg->text = '
 
 Pick a game mode (by default the config file picks survival).  Every player is now locked in that mode.  If their gamemode changes for any reason, this mod will change it back right away.
@@ -178,7 +178,7 @@ $rs = new MinecraftMod();
 $rs->title = 'Runestones';
 $rs->version = '1.7.2-1.0';
 $rs->imguralbum='SZn1o';
-$rs->download = 'http://www.mediafire.com/download/lmryujc29946mmh/runestones-1.7.2-1.0.jar';
+$rs->download = 'http://www.mediafire.com/download/rvmtmffzqbhbq4l/runestones-1.7.2-1.1.jar';
 $rs->text = '<p>Whenever a runestone is in the top left corner of your inventory, you gain its effects. 
     &nbsp;<br>As soon as you drop or move the item, the effect is gone.<br></p><p>Effects and recipes 
     listed below.&nbsp; All runes can be smelted into a furnace to return them back to plain nether stars.
@@ -200,7 +200,7 @@ $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
 $cr->version = '1.7.2-1.0';
 $cr->imguralbum='huBkp';
-$cr->download = 'http://www.mediafire.com/download/k51qsth0i0ghpt2/extracrafting-1.7.2-1.0.jar';
+$cr->download = 'http://www.mediafire.com/download/74i72curbaqmn9j/extracrafting-1.7.2-1.1.jar';
 
 $cr->text = '
 
@@ -220,7 +220,7 @@ $uc = new MinecraftMod();
 $uc->title = 'Uncrafting';
 $uc->version = '1.7.2-1.0';
 $uc->imguralbum='KZo8s';
-$uc->download = 'http://www.mediafire.com/download/r7vgqaaz0d0f1af/uncrafting-1.7.2-1.0.jar';
+$uc->download = 'http://www.mediafire.com/download/q2cp1c9nwfflqs2/uncrafting-1.7.2-1.1.jar';
 $uc->text = '
     
 Almost everything in the game has some sort of reverse recipe.  Ladders back into sticks, Stone bricks back into Stone, you name it.
