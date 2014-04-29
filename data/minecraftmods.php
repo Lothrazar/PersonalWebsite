@@ -44,7 +44,7 @@ $msort = new MinecraftMod();
 $msort->title = 'Magic Sorting (Quick Stack)';
 $msort->download = 'http://www.mediafire.com/download/9iddhnn8fscz5sg/magicsort-1.7.2-1.1.jar';
 $msort->imguralbum = '';
-$msort->version = '1.7.2-1.0';
+$msort->version = '1.7.2-1.1';
 $msort->text = 'My most useful mod.  Simply punch a chest with an empty hand, and it smartly sorts all your items into the chest.  It works 
     in a very similar way to Quick Stack in Terraria
     <br/>
@@ -62,7 +62,7 @@ $sm = new MinecraftMod();
 $sm->title = 'Stack Max 64';
 $sm->download = 'http://www.mediafire.com/download/p50bc21pc7830ex/stackmax-1.7.2-1.1.jar';
 $sm->imguralbum = 'Xa1lK';
-$sm->version = '1.7.2-1.0';
+$sm->version = '1.7.2-1.1';
 $sm->text = 'Inspired by the classic mod by Ritsugami.
     This is a small mod that does exactgily as the title implies: 
 <br/>
@@ -78,7 +78,7 @@ Almost all automatic redstone brewing machines depend on potions not being stack
 $rccm = new MinecraftMod();
 $rccm->title = 'Craftable Command Blocks';
 $rccm->download = 'http://www.mediafire.com/download/17xagzpxa76v04m/craftablecommand-1.7.2-1.1.jar';
-$rccm->version = '1.7.2-1.0';
+$rccm->version = '1.7.2-1.1';
 $rccm->imguralbum='7r1Nu';
 $rccm->text = '
 These 7 command blocks do not let anyone open the command window to edit the command.  
@@ -109,7 +109,7 @@ All crafted with a similar recipe, and need silk touch to pick up.
 
 $rd = new MinecraftMod();
 $rd->title = 'Rule Detectors';
-$rd->version = '1.7.2-1.0';
+$rd->version = '1.7.2-1.1';
 $rd->imguralbum='XBurD';
 $rd->download = 'http://www.mediafire.com/download/jfita0difs9do6t/ruledetectors-1.7.2-1.1.jar';
 $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if their associated
@@ -120,7 +120,7 @@ $rd->text = '<p>Each of these 5 blocks emits a redstone signal depending on if t
 
 $ma = new MinecraftMod();
 $ma->title = 'Magic Apples';
-$ma->version = '1.7.2-1.0';
+$ma->version = '1.7.2-1.1';
 $ma->download = 'http://www.mediafire.com/download/6j0j0jak353ush5/magicapples-1.7.2-1.1.jar';
 $ma->imguralbum='Qqh0q';
 $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in exchange for eating rare minerals.&nbsp; 
@@ -137,7 +137,7 @@ $ma->text = '<p>These 4 apples are similar to golden apples - temporary buffs in
 
 $ef = new MinecraftMod();
 $ef->title = 'Expensive Flying';
-$ef->version = '1.7.2-1.0';
+$ef->version = '1.7.2-1.1';
 $ef->download = 'http://www.mediafire.com/download/1i52kkc1slfgp9p/expensiveflying-1.7.2-1.1.jar';
 $ef->text = 'Flying in survival mode.  While flying, you have <b>Weakness III</b>
 and <b>Mining Fatigue III</b>, making it nearly impossible to break blocks or fight anything.  
@@ -151,7 +151,7 @@ A video on this is coming soon.  Config file is shown below.  <br/>
 
 $hs = new MinecraftMod();
 $hs->title = 'Horse Step Sprinting';
-$hs->version = '1.7.2-1.0';
+$hs->version = '1.7.2-1.1';
 $hs->download = 'http://www.mediafire.com/download/j1ho1bbue8oawzk/horsestep-1.7.2-1.1.jar';
 $hs->text = '
     
@@ -164,7 +164,7 @@ This speeds up the game so much, and reduces a lot of that frustrating jumping u
     ';
  
 $lg = new MinecraftMod();
-$lg->version = '1.7.2-1.0';
+$lg->version = '1.7.2-1.1';
 $lg->title = 'Lock Gamemode';
 $lg->download = 'http://www.mediafire.com/download/vlvf6movysk7v7c/lockgamemode-1.7.2-1.1.jar';
 $lg->text = '
@@ -176,7 +176,7 @@ Most people will find this mod silly, but I made it for myself so i would not be
 
 $rs = new MinecraftMod();
 $rs->title = 'Runestones';
-$rs->version = '1.7.2-1.0';
+$rs->version = '1.7.2-1.1';
 $rs->imguralbum='SZn1o';
 $rs->download = 'http://www.mediafire.com/download/rvmtmffzqbhbq4l/runestones-1.7.2-1.1.jar';
 $rs->text = '<p>Whenever a runestone is in the top left corner of your inventory, you gain its effects. 
@@ -198,7 +198,7 @@ $rs->text = '<p>Whenever a runestone is in the top left corner of your inventory
 
 $cr = new MinecraftMod();
 $cr->title = 'Extra Crafting';
-$cr->version = '1.7.2-1.0';
+$cr->version = '1.7.2-1.1';
 $cr->imguralbum='huBkp';
 $cr->download = 'http://www.mediafire.com/download/74i72curbaqmn9j/extracrafting-1.7.2-1.1.jar';
 
@@ -218,7 +218,7 @@ Includes the chiseled stone and mossy cobble recipes pulled from the 1.8 snapsho
 
 $uc = new MinecraftMod();
 $uc->title = 'Uncrafting';
-$uc->version = '1.7.2-1.0';
+$uc->version = '1.7.2-1.1';
 $uc->imguralbum='KZo8s';
 $uc->download = 'http://www.mediafire.com/download/q2cp1c9nwfflqs2/uncrafting-1.7.2-1.1.jar';
 $uc->text = '
