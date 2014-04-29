@@ -25,12 +25,15 @@ $mods =  get_minecraftmods();
 <section class="panel">   
     <h2>Minecraft Mods</h2>
     <h2>Currently I have some fun mods in Minecraft Forge that I am using in my single player world</h2>
+    <p>
+        All mods require Minecraft Forge 10.12.1.1060 for Minecraft 1.7.2.  <a href="http://files.minecraftforge.net/">Get Forge here.</a>
+    </p>
 
     <p>I still have one older mod for versions 1.4 and 1.5 that I have not updated.  
-        For now, I will just <a target="_blank" href="http://www.minecraftforum.net/topic/1562770-">Link to it here</a>.</p>
+        For now, I will just <a target="_blank" href="http://www.minecraftforum.net/topic/1562770-">Link to it here</a>.
+    </p>
     
-    <p>The mods themselves are done and working, I have been using them in my world, but the writeups and descriptions are still a work in progress.  I have to go 
-    and take screenshots and list out all the features and config files and all the details of each.  I am just terribly lazy right now...</p>
+ 
 </section>
 
 <br/>
