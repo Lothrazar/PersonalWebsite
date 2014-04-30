@@ -1,0 +1,38 @@
+Ender chest command: short private video and embed. possibly convert to gif with http://makeagif.com/video-to-gif/
+
+Stackmax : create picture and/or album, have eclipse open to make sure everything is in there --img single us http://imgur.com/2cvFZUf
+
+Craftable command: create imgur album. use eclipse and minecraft
+   Also video showing use 
+ALBUM = http://imgur.com/a/7r1Nu
+new download link
+ 
+rule detectors: imgur album of recipes. probably video too
+http://imgur.com/a/XBurD#0
+
+same for runestones http://imgur.com/a/SZn1o#0
+
+ TODO: all imgur albums and images need desc text. and maybe crop
+
+
+Expensive flying: will have to be video. also something with config file
+
+HSS: video
+
+Lock gamemode: video
+
+Runestones: recipes and video
+
+extra crafting: more recipes
+
+uncrafting: more recipes.
+
+!TODO: wsywig layout 
+swap with a get argument
+of rows vs columns
+clean up presentation of output so when you copy paste it, its not all in one line. format nicely. loop on string so we add tabs and new lines for each starting,ending html tag
+
+google analytics on my page
+
+post about my arcade project
+
