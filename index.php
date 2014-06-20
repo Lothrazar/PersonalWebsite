@@ -6,17 +6,18 @@
     <body>
         <?php
         
-        $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS);//$_GET['page'];
-        if( !isset($page) ){ $page='home';}  ?>
+        $page = filter_input(INPUT_GET,'page',FILTER_SANITIZE_SPECIAL_CHARS); 
+        
+        if( !isset($page) ){ $page = 'articles';}  
+        
+        ?>
 
         <div id="header"> 
-             
-            
-             <?php include 'views/layout/menu.php'; ?>
+              
+            <?php include 'views/layout/menu.php'; ?>
          
         </div>
-        <div id="body">
-      
+        <div id="body"> 
             <table id="layout"><tr><td id="main">
                
                  <?php
@@ -34,11 +35,7 @@
         
             </td><td id="right"  >
           
-            </td></tr></table>
-
-           
-          
-
+            </td></tr></table> 
         </div> 
        
     </body>	

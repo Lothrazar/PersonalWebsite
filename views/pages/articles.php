@@ -2,9 +2,19 @@
  <br/>
 
 <h3>
-    Welcome to my home page, where I talk about programming, mostly about games and mods that I have made.
+    Welcome to my blog, where I talk about programming, mostly about games and mods that I have made.
 </h3>
+ 
+ <p>
+     Eventually I plan to put out more frequent articles, with topics and tag lines.  For now I just have one post about some random minecraft screenshots 
+     that I found.
+     
+ </p>
        
+ 
+ <br/> <br/>
+ <br/>
+
 
 <p>
     I have eleven Minecraft mods out for Minecraft Forge 1.7.2, and I have been toying with some javascript 

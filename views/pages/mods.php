@@ -82,8 +82,6 @@ $mods =  get_minecraftmods();
             
             
         </div>
-
-        
  
     </div>
 
