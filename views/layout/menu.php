@@ -24,6 +24,10 @@
             $titles['mods'] = 'My Mods';  
             $titles['programming'] = 'My Projects'; 
             
+            $titles['apps'] = 'Apps';
+            
+            
+            
             //  $titles['playing'] = 'Playing';
             //  $titles['collecting'] = 'Collecting'; 
             //     $titles['blog'] = 'Blog';
