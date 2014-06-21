@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <h3>Apps</h3>
                 <script src="http://cdn.sencha.com/ext/gpl/4.2.1/ext-all.js"></script> 
+                <script src="apps/financer/app.js"></script> 
                     <script type="text/javascript">
  
     $(document).ready(function()
