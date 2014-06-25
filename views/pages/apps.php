@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<h3>Apps</h3>
-                <script src="http://cdn.sencha.com/ext/gpl/4.2.1/ext-all.js"></script> 
-                <script src="apps/financer/app.js"></script> 
-                    <script type="text/javascript">
+
+<div id="top"></div>
+ 
+ 
+<script src="apps/financer/app.js"></script> 
+    <script type="text/javascript">
+
+
+                        
+                        
+                        
+                        
  
     $(document).ready(function()
     { 
@@ -42,7 +50,12 @@ Any other questions about this icon set please
 contact mjames@gmail.com
 */
         </script>
-        <?php
-        // put your code here
-        ?>
  
+        
+
+<div  >
+    <ul>
+      
+        <li><a href='apps/financer/index.php' ><span>Financer</span></a></li> 
+    </ul>
+</div>
