@@ -1,9 +1,9 @@
-
+<script src="../../plugins/jscolor/jscolor.js" type="text/javascript" ></script>
 <script src="../../plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="Painter.js" type="text/javascript"></script>
 
 <h1>Index of Painter</h1>
-
+<input class="color" id ='colPickerMain' value='000000'>
 <style>
 * { margin:0; padding:0; } /* to remove the top and left whitespace */
 

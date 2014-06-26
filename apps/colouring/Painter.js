@@ -95,7 +95,8 @@ Painter.RePaint = function()
     console.log('repaint'+clickX.length);
     var context = Painter.CanvasContext;
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
-
+Painter.currentColour = $('#colPickerMain').val();
+console.log($('#colPickerMain'));
   context.strokeStyle = "#" + Painter.currentColour;
   context.lineJoin = "round";//TODO: lookup docs for this
   context.lineWidth = 99;
