@@ -4,8 +4,15 @@
 
 <h1>Index of Painter</h1>
 
+<style>
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
 
-<cavnas id="canvasCtr" style="height:500px;width:500px;background-color:yellow"></cavnas>
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+
+canvas { display:block; } /* To remove the scrollbars */
+</style>
+
+<div id="canvasCtr" style="border:1px solid;cursor:pointer;width:900px; height:600px;"></div>
 
 
 <h1>asdfasdf</h1>
