@@ -2,3 +2,4 @@ nbproject/*
 views.txt
 log.txt
 db_config.php
+*.zip
